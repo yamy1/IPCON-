@@ -1,0 +1,104 @@
+{
+  "generatedAt": "2026-11-08T06:20:28.783Z",
+  "materials": [
+    "ABS",
+    "PETG",
+    "PLA",
+    "TPU"
+  ],
+  "brands": [
+    "Bambu Lab",
+    "Creality",
+    "Elegoo",
+    "Prusa"
+  ],
+  "models": [
+    "K1 Max",
+    "MK4",
+    "Neptune 4",
+    "P1S",
+    "X1 Carbon"
+  ],
+  "slicers": [
+    "BambuStudio",
+    "ElegooSlicer",
+    "OrcaSlicer",
+    "PrusaSlicer"
+  ],
+  "presets": [
+    {
+      "id": "preset/ABS/Prusa/MK4/PrusaSlicer/IPCON_ABS_Standard_MK4.json",
+      "name": "IPCON_ABS_Standard_MK4",
+      "filename": "IPCON_ABS_Standard_MK4.json",
+      "material": "ABS",
+      "brand": "Prusa",
+      "model": "MK4",
+      "slicer": "PrusaSlicer",
+      "compatible": [
+        "Original Prusa MK4",
+        "Original Prusa MK4S"
+      ],
+      "updatedAt": "2026-11-08",
+      "path": "preset/ABS/Prusa/MK4/PrusaSlicer/IPCON_ABS_Standard_MK4.json"
+    },
+    {
+      "id": "preset/PETG/Creality/K1 Max/OrcaSlicer/IPCON_PETG_Standard_K1Max.json",
+      "name": "IPCON_PETG_Standard_K1Max",
+      "filename": "IPCON_PETG_Standard_K1Max.json",
+      "material": "PETG",
+      "brand": "Creality",
+      "model": "K1 Max",
+      "slicer": "OrcaSlicer",
+      "compatible": [
+        "Creality K1 Max 0.4 nozzle",
+        "Creality K1 0.4 nozzle"
+      ],
+      "updatedAt": "2026-11-08",
+      "path": "preset/PETG/Creality/K1 Max/OrcaSlicer/IPCON_PETG_Standard_K1Max.json"
+    },
+    {
+      "id": "preset/PLA/Bambu Lab/P1S/OrcaSlicer/IPCON_PLA_Basic_P1S.json",
+      "name": "IPCON_PLA_Basic_P1S",
+      "filename": "IPCON_PLA_Basic_P1S.json",
+      "material": "PLA",
+      "brand": "Bambu Lab",
+      "model": "P1S",
+      "slicer": "OrcaSlicer",
+      "compatible": [
+        "Bambu Lab P1S 0.4 nozzle",
+        "Bambu Lab P1P 0.4 nozzle"
+      ],
+      "updatedAt": "2026-11-08",
+      "path": "preset/PLA/Bambu Lab/P1S/OrcaSlicer/IPCON_PLA_Basic_P1S.json"
+    },
+    {
+      "id": "preset/PLA/Bambu Lab/X1 Carbon/BambuStudio/IPCON_PLA_Basic_X1C.json",
+      "name": "IPCON_PLA_Basic_X1C",
+      "filename": "IPCON_PLA_Basic_X1C.json",
+      "material": "PLA",
+      "brand": "Bambu Lab",
+      "model": "X1 Carbon",
+      "slicer": "BambuStudio",
+      "compatible": [
+        "Bambu Lab X1 Carbon 0.4 nozzle"
+      ],
+      "updatedAt": "2026-11-08",
+      "path": "preset/PLA/Bambu Lab/X1 Carbon/BambuStudio/IPCON_PLA_Basic_X1C.json"
+    },
+    {
+      "id": "preset/TPU/Elegoo/Neptune 4/ElegooSlicer/IPCON_TPU_95A_Neptune4.json",
+      "name": "IPCON_TPU_95A_Neptune4",
+      "filename": "IPCON_TPU_95A_Neptune4.json",
+      "material": "TPU",
+      "brand": "Elegoo",
+      "model": "Neptune 4",
+      "slicer": "ElegooSlicer",
+      "compatible": [
+        "Elegoo Neptune 4",
+        "Elegoo Neptune 4 Pro"
+      ],
+      "updatedAt": "2026-11-08",
+      "path": "preset/TPU/Elegoo/Neptune 4/ElegooSlicer/IPCON_TPU_95A_Neptune4.json"
+    }
+  ]
+}

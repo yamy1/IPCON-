@@ -1,0 +1,12 @@
+{
+  "type": "filament",
+  "name": "IPCON ABS Standard @ Prusa MK4",
+  "filament_vendor": ["IPCON"],
+  "filament_type": ["ABS"],
+  "compatible_printers": ["Original Prusa MK4", "Original Prusa MK4S"],
+  "nozzle_temperature": ["255"],
+  "bed_temperature": ["100"],
+  "filament_max_volumetric_speed": ["11"],
+  "filament_flow_ratio": ["0.95"],
+  "notes": "IPCON ABS Standard sample profile for PrusaSlicer. Enclosure recommended."
+}
