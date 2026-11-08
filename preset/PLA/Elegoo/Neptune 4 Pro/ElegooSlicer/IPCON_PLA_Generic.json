@@ -1,0 +1,21 @@
+{
+  "type": "filament",
+  "name": "IPCON PLA Generic @Elegoo Neptune 4 Pro",
+  "from": "IPCON",
+  "setting_id": "IPCON_PLA_N4P_ES",
+  "filament_id": "IPCON_PLA",
+  "instantiation": "true",
+  "filament_type": ["PLA"],
+  "filament_vendor": ["IPCON"],
+  "filament_density": ["1.24"],
+  "filament_cost": ["29.99"],
+  "filament_diameter": ["1.75"],
+  "nozzle_temperature": ["210"],
+  "nozzle_temperature_initial_layer": ["215"],
+  "bed_temperature": ["60"],
+  "bed_temperature_initial_layer": ["60"],
+  "compatible_printers": ["Elegoo Neptune 4 Pro 0.4 nozzle"],
+  "compatible_printers_condition": "",
+  "version": "1.0.0",
+  "updated": "2026-02-28"
+}

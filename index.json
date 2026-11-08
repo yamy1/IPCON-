@@ -1,0 +1,88 @@
+{
+  "generatedAt": "2026-11-08T06:22:12.431Z",
+  "materials": [
+    "ABS",
+    "PETG",
+    "PLA"
+  ],
+  "brands": [
+    "Bambu Lab",
+    "Creality",
+    "Elegoo",
+    "Prusa"
+  ],
+  "models": [
+    "K1 Max",
+    "MK4",
+    "Neptune 4 Pro",
+    "X1 Carbon"
+  ],
+  "slicers": [
+    "BambuStudio",
+    "ElegooSlicer",
+    "OrcaSlicer",
+    "PrusaSlicer"
+  ],
+  "presets": [
+    {
+      "id": "pla-bambu-lab-x1-carbon-bambustudio-ipcon-pla-generic",
+      "name": "IPCON PLA Generic @Bambu Lab X1 Carbon",
+      "material": "PLA",
+      "brand": "Bambu Lab",
+      "model": "X1 Carbon",
+      "slicer": "BambuStudio",
+      "file": "IPCON_PLA_Generic.json",
+      "path": "preset/PLA/Bambu Lab/X1 Carbon/BambuStudio/IPCON_PLA_Generic.json",
+      "compatibleModels": [
+        "Bambu Lab X1 Carbon 0.4 nozzle"
+      ],
+      "updated": "2026-03-01",
+      "version": "1.0.0"
+    },
+    {
+      "id": "pla-elegoo-neptune-4-pro-elegooslicer-ipcon-pla-generic",
+      "name": "IPCON PLA Generic @Elegoo Neptune 4 Pro",
+      "material": "PLA",
+      "brand": "Elegoo",
+      "model": "Neptune 4 Pro",
+      "slicer": "ElegooSlicer",
+      "file": "IPCON_PLA_Generic.json",
+      "path": "preset/PLA/Elegoo/Neptune 4 Pro/ElegooSlicer/IPCON_PLA_Generic.json",
+      "compatibleModels": [
+        "Elegoo Neptune 4 Pro 0.4 nozzle"
+      ],
+      "updated": "2026-02-28",
+      "version": "1.0.0"
+    },
+    {
+      "id": "petg-creality-k1-max-orcaslicer-ipcon-petg-generic",
+      "name": "IPCON PETG Generic @Creality K1 Max",
+      "material": "PETG",
+      "brand": "Creality",
+      "model": "K1 Max",
+      "slicer": "OrcaSlicer",
+      "file": "IPCON_PETG_Generic.json",
+      "path": "preset/PETG/Creality/K1 Max/OrcaSlicer/IPCON_PETG_Generic.json",
+      "compatibleModels": [
+        "Creality K1 Max 0.4 nozzle"
+      ],
+      "updated": "2026-02-18",
+      "version": "1.0.0"
+    },
+    {
+      "id": "abs-prusa-mk4-prusaslicer-ipcon-abs-generic",
+      "name": "IPCON ABS Generic @Prusa MK4",
+      "material": "ABS",
+      "brand": "Prusa",
+      "model": "MK4",
+      "slicer": "PrusaSlicer",
+      "file": "IPCON_ABS_Generic.json",
+      "path": "preset/ABS/Prusa/MK4/PrusaSlicer/IPCON_ABS_Generic.json",
+      "compatibleModels": [
+        "Prusa MK4 0.4 nozzle"
+      ],
+      "updated": "2026-01-22",
+      "version": "1.0.0"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "type": "filament",
+  "name": "IPCON PETG Generic @Creality K1 Max",
+  "from": "IPCON",
+  "setting_id": "IPCON_PETG_K1M_OS",
+  "filament_id": "IPCON_PETG",
+  "instantiation": "true",
+  "filament_type": ["PETG"],
+  "filament_vendor": ["IPCON"],
+  "filament_density": ["1.27"],
+  "filament_cost": ["34.99"],
+  "filament_diameter": ["1.75"],
+  "nozzle_temperature": ["245"],
+  "nozzle_temperature_initial_layer": ["245"],
+  "bed_temperature": ["80"],
+  "bed_temperature_initial_layer": ["80"],
+  "compatible_printers": ["Creality K1 Max 0.4 nozzle"],
+  "compatible_printers_condition": "",
+  "version": "1.0.0",
+  "updated": "2026-02-18"
+}
