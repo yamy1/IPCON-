@@ -1,0 +1,13 @@
+{
+  "name": "ipcon-presets",
+  "version": "1.0.0",
+  "private": true,
+  "description": "IPCON 3D printing filament preset download site",
+  "scripts": {
+    "generate-index": "node scripts/generate-index.js",
+    "preview": "npx --yes serve -l 4173 ."
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

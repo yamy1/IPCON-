@@ -1,0 +1,16 @@
+{
+  "type": "filament",
+  "name": "IPCON ABS @ Prusa MK4",
+  "filament_vendor": ["IPCON"],
+  "filament_type": ["ABS"],
+  "filament_diameter": ["1.75"],
+  "nozzle_temperature": ["255"],
+  "nozzle_temperature_initial_layer": ["260"],
+  "bed_temperature": ["100"],
+  "bed_temperature_initial_layer": ["105"],
+  "filament_max_volumetric_speed": ["12"],
+  "compatible_printers": ["Prusa MK4 0.4 nozzle"],
+  "description": "IPCON ABS 示例预设 — PrusaSlicer / MK4",
+  "version": "1.0.0",
+  "updated_at": "2026-03-15"
+}

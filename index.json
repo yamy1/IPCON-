@@ -1,0 +1,67 @@
+{
+  "generatedAt": "2026-11-08T06:18:08.380Z",
+  "materials": [
+    "ABS",
+    "PETG",
+    "PLA"
+  ],
+  "brands": [
+    "Bambu Lab",
+    "Creality",
+    "Prusa"
+  ],
+  "models": [
+    "K1 Max",
+    "MK4",
+    "X1 Carbon"
+  ],
+  "slicers": [
+    "BambuStudio",
+    "OrcaSlicer",
+    "PrusaSlicer"
+  ],
+  "presets": [
+    {
+      "id": "preset/ABS/Prusa/MK4/PrusaSlicer/IPCON_ABS_MK4.json",
+      "name": "IPCON ABS @ Prusa MK4",
+      "material": "ABS",
+      "brand": "Prusa",
+      "model": "MK4",
+      "slicer": "PrusaSlicer",
+      "filename": "IPCON_ABS_MK4.json",
+      "path": "preset/ABS/Prusa/MK4/PrusaSlicer/IPCON_ABS_MK4.json",
+      "compatibleModels": [
+        "Prusa MK4 0.4 nozzle"
+      ],
+      "updatedAt": "2026-03-15"
+    },
+    {
+      "id": "preset/PETG/Creality/K1 Max/OrcaSlicer/IPCON_PETG_K1Max.json",
+      "name": "IPCON PETG @ Creality K1 Max",
+      "material": "PETG",
+      "brand": "Creality",
+      "model": "K1 Max",
+      "slicer": "OrcaSlicer",
+      "filename": "IPCON_PETG_K1Max.json",
+      "path": "preset/PETG/Creality/K1 Max/OrcaSlicer/IPCON_PETG_K1Max.json",
+      "compatibleModels": [
+        "Creality K1 Max 0.4 nozzle"
+      ],
+      "updatedAt": "2026-03-18"
+    },
+    {
+      "id": "preset/PLA/Bambu Lab/X1 Carbon/BambuStudio/IPCON_PLA_X1C.json",
+      "name": "IPCON PLA @ Bambu Lab X1 Carbon",
+      "material": "PLA",
+      "brand": "Bambu Lab",
+      "model": "X1 Carbon",
+      "slicer": "BambuStudio",
+      "filename": "IPCON_PLA_X1C.json",
+      "path": "preset/PLA/Bambu Lab/X1 Carbon/BambuStudio/IPCON_PLA_X1C.json",
+      "compatibleModels": [
+        "Bambu Lab X1 Carbon 0.4 nozzle"
+      ],
+      "updatedAt": "2026-03-20"
+    }
+  ]
+}
