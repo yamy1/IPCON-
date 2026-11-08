@@ -1,0 +1,21 @@
+{
+  "type": "filament",
+  "name": "IPCON ABS Generic @Prusa MK4",
+  "from": "IPCON",
+  "setting_id": "IPCON_ABS_MK4_PS",
+  "filament_id": "IPCON_ABS",
+  "instantiation": "true",
+  "filament_type": ["ABS"],
+  "filament_vendor": ["IPCON"],
+  "filament_density": ["1.04"],
+  "filament_cost": ["36.99"],
+  "filament_diameter": ["1.75"],
+  "nozzle_temperature": ["255"],
+  "nozzle_temperature_initial_layer": ["255"],
+  "bed_temperature": ["100"],
+  "bed_temperature_initial_layer": ["105"],
+  "compatible_printers": ["Prusa MK4 0.4 nozzle"],
+  "compatible_printers_condition": "",
+  "version": "1.0.0",
+  "updated": "2026-01-22"
+}
