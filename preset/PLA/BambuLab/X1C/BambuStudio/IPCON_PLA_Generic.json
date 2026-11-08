@@ -1,0 +1,15 @@
+{
+  "displayName": "IPCON PLA Generic",
+  "type": "filament",
+  "filament_type": "PLA",
+  "name": "IPCON PLA Generic @ Bambu Lab X1C",
+  "compatibleModels": ["X1C", "X1", "P1S", "P1P"],
+  "description": "IPCON 通用 PLA 预设，适用于 Bambu Lab X1 / P1 系列。",
+  "updatedAt": "2026-03-20",
+  "nozzle_temperature": [220, 220],
+  "bed_temperature": [60, 60],
+  "filament_flow_ratio": ["0.98"],
+  "filament_max_volumetric_speed": ["18"],
+  "filament_vendor": ["IPCON"],
+  "filament_density": ["1.24"]
+}
