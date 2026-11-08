@@ -3,22 +3,22 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="IPCON 耗材 — 3D 打印线材切片预设下载" />
-  <title>IPCON 耗材 · 切片预设</title>
+  <meta name="description" content="IPCON 艾普创耗材 — 3D 打印线材切片预设下载" />
+  <title>IPCON 艾普创 · 切片预设</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
-  <link rel="icon" href="assets/logo.svg" type="image/svg+xml" />
+  <link rel="icon" href="assets/favicon.png" type="image/png" />
 </head>
 <body>
   <div class="bg-atmosphere" aria-hidden="true">
-    <div class="bg-glow bg-glow--teal"></div>
-    <div class="bg-glow bg-glow--amber"></div>
+    <div class="bg-glow bg-glow--blue"></div>
+    <div class="bg-glow bg-glow--orange"></div>
     <svg class="bg-hex-field" viewBox="0 0 1200 800" preserveAspectRatio="xMidYMid slice">
       <defs>
         <pattern id="hexPattern" width="56" height="48.5" patternUnits="userSpaceOnUse" patternTransform="scale(1.4)">
-          <path d="M28 2 L48 13.5 L48 36.5 L28 48 L8 36.5 L8 13.5 Z" fill="none" stroke="rgba(45,212,191,0.08)" stroke-width="1"/>
+          <path d="M28 2 L48 13.5 L48 36.5 L28 48 L8 36.5 L8 13.5 Z" fill="none" stroke="rgba(0,69,142,0.14)" stroke-width="1"/>
         </pattern>
       </defs>
       <rect width="1200" height="800" fill="url(#hexPattern)"/>
@@ -26,10 +26,10 @@
   </div>
 
   <header class="site-header">
-    <a class="brand" href="#top" aria-label="IPCON">
-      <!-- Reserved logo slot: swap assets/logo.svg for a final brand mark later -->
+    <a class="brand" href="#top" aria-label="IPCON 艾普创">
+      <!-- Official logo slot: assets/logo.png (from brand sheet) -->
       <span class="brand__logo-slot">
-        <img src="assets/logo.svg" alt="" width="140" height="36" />
+        <img src="assets/logo.png" alt="ipcon 艾普创" width="190" height="69" />
       </span>
       <span class="brand__tag" data-i18n="brandTag">耗材预设</span>
     </a>
@@ -45,30 +45,34 @@
   <main id="top">
     <section class="hero" aria-labelledby="hero-title">
       <div class="hero__content">
-        <p class="hero__brand" aria-hidden="true">ipcon</p>
+        <p class="hero__brand">
+          <span class="hero__brand-en">ipcon</span>
+          <span class="hero__brand-zh">艾普创</span>
+        </p>
         <h1 id="hero-title" data-i18n="heroTitle">聚合物级切片预设</h1>
-        <p class="hero__lead" data-i18n="heroLead">为 IPCON 线材精调的切片配置，按切片软件与机型筛选，一键下载 JSON 或打包 ZIP。</p>
+        <p class="hero__lead" data-i18n="heroLead">为 IPCON 艾普创线材精调的切片配置，按切片软件与机型筛选，一键下载 JSON 或打包 ZIP。</p>
         <div class="hero__cta">
           <a class="btn btn--primary" href="#catalog" data-i18n="ctaBrowse">浏览预设</a>
           <a class="btn btn--ghost" href="#how" data-i18n="ctaHow">如何导入</a>
         </div>
       </div>
       <div class="hero__visual" aria-hidden="true">
+        <img class="hero__logo-mark" src="assets/logo.png" alt="" width="320" height="117" />
         <svg class="benzene-hero" viewBox="0 0 320 320" fill="none">
           <g class="benzene-hero__ring" stroke-width="2">
             <polygon points="160,28 252,81 252,187 160,240 68,187 68,81" stroke="url(#heroGrad)"/>
-            <polygon points="160,72 214,103 214,165 160,196 106,165 106,103" stroke="rgba(245,158,11,0.55)"/>
-            <circle cx="160" cy="28" r="6" fill="#2dd4bf"/>
-            <circle cx="252" cy="81" r="6" fill="#5eead4"/>
-            <circle cx="252" cy="187" r="6" fill="#f59e0b"/>
-            <circle cx="160" cy="240" r="6" fill="#2dd4bf"/>
-            <circle cx="68" cy="187" r="6" fill="#5eead4"/>
-            <circle cx="68" cy="81" r="6" fill="#fbbf24"/>
+            <polygon points="160,72 214,103 214,165 160,196 106,165 106,103" stroke="rgba(230,112,21,0.55)"/>
+            <circle cx="160" cy="28" r="6" fill="#00458E"/>
+            <circle cx="252" cy="81" r="6" fill="#E67015"/>
+            <circle cx="252" cy="187" r="6" fill="#00458E"/>
+            <circle cx="160" cy="240" r="6" fill="#E67015"/>
+            <circle cx="68" cy="187" r="6" fill="#00458E"/>
+            <circle cx="68" cy="81" r="6" fill="#E67015"/>
           </g>
           <defs>
             <linearGradient id="heroGrad" x1="68" y1="28" x2="252" y2="240">
-              <stop stop-color="#2dd4bf"/>
-              <stop offset="1" stop-color="#f59e0b"/>
+              <stop stop-color="#00458E"/>
+              <stop offset="1" stop-color="#E67015"/>
             </linearGradient>
           </defs>
         </svg>
@@ -136,8 +140,7 @@
 
   <footer class="site-footer">
     <div class="footer-brand">
-      <span class="footer-mark" aria-hidden="true">⬡</span>
-      <strong>IPCON</strong>
+      <img class="footer-logo" src="assets/logo-header.png" alt="ipcon 艾普创" width="120" height="44" />
       <span data-i18n="footerTag">3D 打印耗材预设</span>
     </div>
     <p class="footer-note" data-i18n="footerNote">静态站点 · 数据来自 index.json</p>

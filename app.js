@@ -9,7 +9,7 @@
       brandTag: "耗材预设",
       heroTitle: "聚合物级切片预设",
       heroLead:
-        "为 IPCON 线材精调的切片配置，按切片软件与机型筛选，一键下载 JSON 或打包 ZIP。",
+        "为 IPCON 艾普创线材精调的切片配置，按切片软件与机型筛选，一键下载 JSON 或打包 ZIP。",
       ctaBrowse: "浏览预设",
       ctaHow: "如何导入",
       catalogTitle: "选择切片软件",
@@ -26,7 +26,7 @@
       howStep1: "选择切片器并筛选所需材料 / 机型。",
       howStep2: "下载单个 JSON，或勾选多项打包 ZIP。",
       howStep3: "在切片软件中打开「导入预设 / Import Config」，选择文件。",
-      footerTag: "3D 打印耗材预设",
+      footerTag: "艾普创 · 3D 打印耗材预设",
       footerNote: "静态站点 · 数据来自 index.json",
       resultCount: "共 {n} 个预设",
       download: "下载",
@@ -45,7 +45,7 @@
       brandTag: "Filament Presets",
       heroTitle: "Polymer-tuned slicer presets",
       heroLead:
-        "Slicer profiles tuned for IPCON filament. Filter by slicer and printer, then download JSON or a ZIP pack.",
+        "Slicer profiles tuned for IPCON (艾普创) filament. Filter by slicer and printer, then download JSON or a ZIP pack.",
       ctaBrowse: "Browse presets",
       ctaHow: "How to import",
       catalogTitle: "Choose a slicer",
@@ -62,7 +62,7 @@
       howStep1: "Choose a slicer and filter by material / printer.",
       howStep2: "Download a single JSON, or select several and pack a ZIP.",
       howStep3: "In your slicer, open Import Config / Import Preset and pick the file.",
-      footerTag: "3D printing filament presets",
+      footerTag: "IPCON · 3D printing filament presets",
       footerNote: "Static site · data from index.json",
       resultCount: "{n} preset(s)",
       download: "Download",
@@ -121,7 +121,7 @@
     if (label) label.textContent = t("langLabel");
     if (idle) idle.textContent = t("langIdle");
     document.title =
-      state.lang === "zh" ? "IPCON 耗材 · 切片预设" : "IPCON · Filament Presets";
+      state.lang === "zh" ? "IPCON 艾普创 · 切片预设" : "IPCON · Filament Presets";
   }
 
   function fillSelect(select, values, selected) {

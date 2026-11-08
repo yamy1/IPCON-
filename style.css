@@ -1,23 +1,34 @@
-/* IPCON filament preset site — tech-chemistry palette */
+/* IPCON filament preset site — official brand palette */
 :root {
-  --bg-deep: #07131a;
-  --bg-panel: rgba(10, 28, 36, 0.72);
-  --bg-panel-solid: #0c1e26;
-  --line: rgba(45, 212, 191, 0.22);
-  --line-strong: rgba(45, 212, 191, 0.45);
-  --text: #e8f7f4;
-  --text-muted: #8fb3ae;
-  --teal: #2dd4bf;
-  --teal-deep: #0f766e;
-  --amber: #f59e0b;
-  --amber-soft: rgba(245, 158, 11, 0.16);
+  /* Brand sheet: RGB 0,69,142 / 230,112,21 */
+  --brand-blue: #00458E;
+  --brand-orange: #E67015;
+  --brand-blue-soft: rgba(0, 69, 142, 0.28);
+  --brand-orange-soft: rgba(230, 112, 21, 0.16);
+
+  --bg-deep: #060b14;
+  --bg-panel: rgba(8, 18, 36, 0.78);
+  --bg-panel-solid: #0a1424;
+  --line: rgba(0, 69, 142, 0.38);
+  --line-strong: rgba(77, 140, 210, 0.55);
+  --text: #eef3fa;
+  --text-muted: #9aafc7;
+  --accent: var(--brand-blue);
+  --accent-deep: #003366;
+  --warm: var(--brand-orange);
+  --warm-soft: var(--brand-orange-soft);
+  /* aliases kept for existing class hooks */
+  --teal: var(--brand-blue);
+  --teal-deep: var(--accent-deep);
+  --amber: var(--brand-orange);
+  --amber-soft: var(--brand-orange-soft);
   --danger: #fb7185;
   --radius: 4px;
   --shadow: 0 18px 50px rgba(0, 0, 0, 0.35);
   --font-display: "Space Grotesk", "Outfit", sans-serif;
   --font-body: "Outfit", "Space Grotesk", sans-serif;
   --max: 1100px;
-  --header-h: 72px;
+  --header-h: 76px;
 }
 
 *,
@@ -64,9 +75,9 @@ img {
   z-index: -1;
   pointer-events: none;
   background:
-    radial-gradient(120% 80% at 10% -10%, rgba(15, 118, 110, 0.35), transparent 55%),
-    radial-gradient(90% 70% at 100% 0%, rgba(245, 158, 11, 0.12), transparent 50%),
-    linear-gradient(180deg, #061018 0%, #07131a 45%, #0a1c24 100%);
+    radial-gradient(120% 80% at 8% -12%, rgba(0, 69, 142, 0.42), transparent 55%),
+    radial-gradient(90% 70% at 100% 8%, rgba(230, 112, 21, 0.16), transparent 52%),
+    linear-gradient(180deg, #050910 0%, #060b14 42%, #0a1424 100%);
 }
 
 .bg-glow {
@@ -77,20 +88,20 @@ img {
   animation: drift 18s ease-in-out infinite alternate;
 }
 
-.bg-glow--teal {
+.bg-glow--blue {
   width: 42vw;
   height: 42vw;
   top: -8%;
   left: -10%;
-  background: rgba(45, 212, 191, 0.18);
+  background: rgba(0, 69, 142, 0.35);
 }
 
-.bg-glow--amber {
+.bg-glow--orange {
   width: 36vw;
   height: 36vw;
   right: -8%;
   top: 18%;
-  background: rgba(245, 158, 11, 0.12);
+  background: rgba(230, 112, 21, 0.16);
   animation-delay: -6s;
 }
 
@@ -118,7 +129,7 @@ img {
   min-height: var(--header-h);
   padding: 0.75rem clamp(1rem, 4vw, 2.5rem);
   backdrop-filter: blur(14px);
-  background: rgba(7, 19, 26, 0.72);
+  background: rgba(6, 11, 20, 0.82);
   border-bottom: 1px solid var(--line);
 }
 
@@ -131,9 +142,19 @@ img {
 .brand__logo-slot {
   display: inline-flex;
   align-items: center;
-  min-width: 120px;
-  min-height: 36px;
-  /* Reserved: replace <img> later without layout shift */
+  justify-content: center;
+  min-width: 150px;
+  min-height: 48px;
+  padding: 0.35rem 0.65rem;
+  /* Official mark reads on light; plate keeps brand colors accurate on dark UI */
+  background: #ffffff;
+  border: 1px solid rgba(0, 69, 142, 0.18);
+  border-radius: 6px;
+}
+
+.brand__logo-slot img {
+  height: 44px;
+  width: auto;
 }
 
 .brand__tag {
@@ -152,18 +173,18 @@ img {
   padding: 0.45rem 0.8rem;
   border: 1px solid var(--line);
   border-radius: 999px;
-  background: rgba(12, 30, 38, 0.8);
+  background: rgba(10, 20, 36, 0.85);
   cursor: pointer;
   transition: border-color 0.2s, background 0.2s;
 }
 
 .lang-toggle:hover {
   border-color: var(--line-strong);
-  background: rgba(15, 118, 110, 0.25);
+  background: rgba(0, 69, 142, 0.28);
 }
 
 .lang-toggle__active {
-  color: var(--teal);
+  color: #7eb6ef;
   font-weight: 600;
 }
 
@@ -188,17 +209,29 @@ img {
 }
 
 .hero__brand {
-  margin: 0 0 0.6rem;
+  margin: 0 0 0.85rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+  animation: brandIn 0.9s ease-out both;
+}
+
+.hero__brand-en {
   font-family: var(--font-display);
   font-size: clamp(3.2rem, 9vw, 5.8rem);
   font-weight: 700;
   letter-spacing: 0.06em;
   line-height: 0.92;
-  background: linear-gradient(105deg, #e8f7f4 20%, #2dd4bf 55%, #f59e0b 100%);
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
-  animation: brandIn 0.9s ease-out both;
+  color: var(--brand-blue);
+  text-shadow: 0 0 40px rgba(0, 69, 142, 0.35);
+}
+
+.hero__brand-zh {
+  font-family: var(--font-display);
+  font-size: clamp(1.15rem, 2.6vw, 1.55rem);
+  font-weight: 600;
+  letter-spacing: 0.35em;
+  color: var(--brand-orange);
 }
 
 .hero h1 {
@@ -224,13 +257,30 @@ img {
 }
 
 .hero__visual {
+  position: relative;
   display: grid;
   place-items: center;
+  min-height: 280px;
+}
+
+.hero__logo-mark {
+  position: relative;
+  z-index: 1;
+  width: min(100%, 340px);
+  height: auto;
+  padding: 1.1rem 1.35rem;
+  background: #ffffff;
+  border: 1px solid rgba(0, 69, 142, 0.16);
+  border-radius: 10px;
+  box-shadow: 0 16px 40px rgba(0, 20, 50, 0.35);
+  animation: brandIn 1s ease-out both;
 }
 
 .benzene-hero {
-  width: min(100%, 340px);
-  filter: drop-shadow(0 0 28px rgba(45, 212, 191, 0.25));
+  position: absolute;
+  width: min(100%, 360px);
+  opacity: 0.35;
+  filter: drop-shadow(0 0 28px rgba(0, 69, 142, 0.25));
   animation: spinSlow 28s linear infinite;
 }
 
@@ -252,7 +302,7 @@ img {
   max-width: var(--max);
   margin: 0 auto;
   padding: 0 clamp(1rem, 4vw, 2.5rem);
-  color: var(--teal);
+  color: var(--brand-orange);
   opacity: 0.55;
 }
 
@@ -288,9 +338,9 @@ img {
 }
 
 .btn--primary {
-  background: linear-gradient(120deg, #0f766e, #14b8a6 55%, #d97706);
-  color: #041014;
-  box-shadow: 0 8px 24px rgba(15, 118, 110, 0.35);
+  background: linear-gradient(120deg, #003a78, var(--brand-blue) 45%, var(--brand-orange));
+  color: #fff;
+  box-shadow: 0 8px 24px rgba(0, 69, 142, 0.35);
 }
 
 .btn--ghost {
@@ -300,7 +350,7 @@ img {
 }
 
 .btn--ghost:hover {
-  background: rgba(45, 212, 191, 0.08);
+  background: rgba(0, 69, 142, 0.16);
 }
 
 .btn--small {
@@ -359,8 +409,8 @@ img {
 
 .slicer-chip:hover,
 .slicer-chip[aria-selected="true"] {
-  border-color: var(--teal);
-  background: rgba(15, 118, 110, 0.28);
+  border-color: #4d8cd2;
+  background: rgba(0, 69, 142, 0.35);
   color: #fff;
 }
 
@@ -371,7 +421,7 @@ img {
   right: 18%;
   bottom: 4px;
   height: 2px;
-  background: linear-gradient(90deg, transparent, var(--amber), transparent);
+  background: linear-gradient(90deg, transparent, var(--brand-orange), transparent);
 }
 
 .filters {
@@ -453,7 +503,7 @@ img {
   align-items: center;
   padding: 0.95rem 1rem;
   border: 1px solid var(--line);
-  background: linear-gradient(135deg, rgba(12, 30, 38, 0.9), rgba(10, 28, 36, 0.55));
+  background: linear-gradient(135deg, rgba(10, 20, 36, 0.92), rgba(8, 16, 30, 0.6));
   transition: border-color 0.2s, transform 0.15s;
   animation: rowIn 0.35s ease both;
 }
@@ -491,13 +541,13 @@ img {
   border: 1px solid var(--line);
   font-size: 0.78rem;
   color: var(--text-muted);
-  background: rgba(45, 212, 191, 0.06);
+  background: rgba(0, 69, 142, 0.12);
 }
 
 .tag--amber {
-  border-color: rgba(245, 158, 11, 0.35);
-  background: var(--amber-soft);
-  color: #fcd34d;
+  border-color: rgba(230, 112, 21, 0.4);
+  background: var(--warm-soft);
+  color: #f0a35a;
 }
 
 .preset-row__sub {
@@ -555,8 +605,8 @@ img {
 .how-steps li {
   position: relative;
   padding: 1rem 1rem 1rem 3.4rem;
-  border-left: 2px solid var(--teal);
-  background: rgba(12, 30, 38, 0.55);
+  border-left: 2px solid var(--brand-blue);
+  background: rgba(10, 20, 36, 0.55);
   color: var(--text-muted);
   counter-increment: step;
 }
@@ -571,8 +621,8 @@ img {
   height: 1.6rem;
   display: grid;
   place-items: center;
-  border: 1px solid var(--amber);
-  color: var(--amber);
+  border: 1px solid var(--brand-orange);
+  color: var(--brand-orange);
   font-family: var(--font-display);
   font-size: 0.85rem;
   font-weight: 700;
@@ -595,11 +645,15 @@ img {
 .footer-brand {
   display: flex;
   align-items: center;
-  gap: 0.5rem;
+  gap: 0.75rem;
 }
 
-.footer-mark {
-  color: var(--teal);
+.footer-logo {
+  height: 36px;
+  width: auto;
+  padding: 0.3rem 0.55rem;
+  background: #ffffff;
+  border-radius: 5px;
 }
 
 .footer-note {
@@ -617,10 +671,15 @@ img {
 
   .hero__visual {
     order: -1;
+    min-height: 200px;
+  }
+
+  .hero__logo-mark {
+    width: min(70vw, 260px);
   }
 
   .benzene-hero {
-    width: min(58vw, 240px);
+    width: min(70vw, 280px);
   }
 
   .filters {

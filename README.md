@@ -23,7 +23,10 @@ IPCON（ipcon 耗材）3D 打印线材切片预设下载站。纯静态页面（
 ├── index.json                 # 由脚本生成
 ├── .nojekyll                  # 让 GitHub Pages 跳过 Jekyll
 ├── assets/
-│   └── logo.svg               # Logo 占位（可换成正式 png/svg）
+│   ├── logo.png               # 官方 Logo（透明底，站点使用）
+│   ├── logo-header.png        # 页头 / 页脚缩小版
+│   ├── favicon.png
+│   └── ipcon-official-logo.jpg # 品牌色板原稿
 ├── preset/
 │   └── 材料/品牌/型号/切片器/文件名.json
 └── scripts/
@@ -87,6 +90,8 @@ npx --yes serve -l 8080
 - 根目录已包含空文件 `.nojekyll`，避免 GitHub 用 Jekyll 处理站点。
 - 资源路径均为相对路径，适合 `https://<user>.github.io/IPCON-/` 子路径部署。
 
-## Logo 占位
+## 品牌与 Logo
 
-`assets/logo.svg` 为可替换槽位。换成最终 PNG/SVG 时，保持 `index.html` 中 `.brand__logo-slot` 内的 `<img>` 引用即可。
+- 官方色：深蓝 `#00458E`（RGB 0,69,142）、亮橙 `#E67015`（RGB 230,112,21）
+- 字标：ipcon + 中文副标 艾普创
+- 站点使用 `assets/logo.png`；完整品牌色板原稿见 `assets/ipcon-official-logo.jpg`
