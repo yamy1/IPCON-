@@ -1,0 +1,16 @@
+{
+  "type": "filament",
+  "name": "IPCON PLA @ Bambu Lab X1 Carbon",
+  "filament_vendor": ["IPCON"],
+  "filament_type": ["PLA"],
+  "filament_diameter": ["1.75"],
+  "nozzle_temperature": ["220"],
+  "nozzle_temperature_initial_layer": ["220"],
+  "bed_temperature": ["55"],
+  "bed_temperature_initial_layer": ["60"],
+  "filament_max_volumetric_speed": ["18"],
+  "compatible_printers": ["Bambu Lab X1 Carbon 0.4 nozzle"],
+  "description": "IPCON PLA 示例预设 — BambuStudio / X1 Carbon",
+  "version": "1.0.0",
+  "updated_at": "2026-03-20"
+}

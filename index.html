@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="IPCON 耗材 — 3D 打印切片器预设下载" />
+  <title>IPCON · 耗材预设</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- 背景苯环装饰 -->
+  <div class="bg-hex" aria-hidden="true">
+    <svg class="bg-hex__svg bg-hex__svg--a" viewBox="0 0 200 200">
+      <polygon points="100,10 175,52.5 175,147.5 100,190 25,147.5 25,52.5" />
+    </svg>
+    <svg class="bg-hex__svg bg-hex__svg--b" viewBox="0 0 200 200">
+      <polygon points="100,10 175,52.5 175,147.5 100,190 25,147.5 25,52.5" />
+    </svg>
+    <svg class="bg-hex__svg bg-hex__svg--c" viewBox="0 0 200 200">
+      <polygon points="100,10 175,52.5 175,147.5 100,190 25,147.5 25,52.5" />
+    </svg>
+  </div>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="./" aria-label="IPCON">
+        <!-- 预留品牌 Logo 位置：替换 assets/logo.svg 即可 -->
+        <img class="brand__logo" src="assets/logo.svg" alt="ipcon" width="160" height="36" />
+        <span class="brand__mark" data-i18n="brandTag">耗材预设</span>
+      </a>
+
+      <div class="header-actions">
+        <button type="button" class="lang-toggle" id="langToggle" aria-label="Switch language">
+          <span class="lang-toggle__hex" aria-hidden="true"></span>
+          <span id="langLabel">EN</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero：品牌优先，苯环视觉 -->
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <p class="hero-eyebrow" data-i18n="heroEyebrow">高分子材料 · 切片预设</p>
+          <h1 class="hero-brand">IPCON</h1>
+          <p class="hero-lead" data-i18n="heroLead">为你的打印机挑选经过调校的耗材预设，一键下载，直接导入切片器。</p>
+          <div class="hero-cta">
+            <a class="btn btn--primary" href="#presets" data-i18n="ctaBrowse">浏览预设</a>
+            <a class="btn btn--ghost" href="#how" data-i18n="ctaHow">如何使用</a>
+          </div>
+        </div>
+        <div class="hero-visual" aria-hidden="true">
+          <svg class="benzene-hero" viewBox="0 0 320 320" fill="none">
+            <defs>
+              <linearGradient id="hStroke" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0%" stop-color="#2dd4bf"/>
+                <stop offset="55%" stop-color="#38bdf8"/>
+                <stop offset="100%" stop-color="#f59e0b"/>
+              </linearGradient>
+              <filter id="softGlow" x="-40%" y="-40%" width="180%" height="180%">
+                <feGaussianBlur stdDeviation="4" result="b"/>
+                <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+              </filter>
+            </defs>
+            <g filter="url(#softGlow)" stroke="url(#hStroke)" stroke-width="2.4" stroke-linejoin="round">
+              <polygon class="ring-spin" points="160,36 250,88 250,192 160,244 70,192 70,88"/>
+              <polygon class="ring-spin-rev" points="160,70 220,105 220,175 160,210 100,175 100,105" opacity="0.55"/>
+              <line x1="160" y1="36" x2="160" y2="88"/>
+              <line x1="250" y1="88" x2="205" y2="114"/>
+              <line x1="250" y1="192" x2="205" y2="166"/>
+              <circle cx="160" cy="140" r="10" fill="#f59e0b" stroke="none"/>
+              <circle cx="112" cy="118" r="4" fill="#2dd4bf" stroke="none" opacity="0.9"/>
+              <circle cx="208" cy="162" r="4" fill="#38bdf8" stroke="none" opacity="0.9"/>
+            </g>
+          </svg>
+        </div>
+      </div>
+      <div class="hex-divider" aria-hidden="true">
+        <svg viewBox="0 0 80 14" preserveAspectRatio="none"><polygon points="0,7 10,0 70,0 80,7 70,14 10,14"/></svg>
+      </div>
+    </section>
+
+    <!-- 筛选 + 列表 -->
+    <section class="presets-section" id="presets">
+      <div class="container">
+        <div class="section-head">
+          <h2 data-i18n="presetsTitle">预设下载</h2>
+          <p data-i18n="presetsDesc">按切片器与机型筛选，支持单文件下载或多选打包。</p>
+        </div>
+
+        <div class="filters" id="filters">
+          <div class="filter-field">
+            <label for="filterSlicer" data-i18n="filterSlicer">切片器</label>
+            <select id="filterSlicer"></select>
+          </div>
+          <div class="filter-field">
+            <label for="filterMaterial" data-i18n="filterMaterial">材料</label>
+            <select id="filterMaterial"></select>
+          </div>
+          <div class="filter-field">
+            <label for="filterBrand" data-i18n="filterBrand">打印机品牌</label>
+            <select id="filterBrand"></select>
+          </div>
+          <div class="filter-field">
+            <label for="filterModel" data-i18n="filterModel">打印机型号</label>
+            <select id="filterModel"></select>
+          </div>
+          <div class="filter-field filter-field--search">
+            <label for="filterSearch" data-i18n="filterSearch">搜索</label>
+            <input id="filterSearch" type="search" autocomplete="off" placeholder="" />
+          </div>
+        </div>
+
+        <div class="toolbar">
+          <label class="check-all">
+            <input type="checkbox" id="selectAll" />
+            <span data-i18n="selectAll">全选当前列表</span>
+          </label>
+          <div class="toolbar-meta">
+            <span id="resultCount" class="result-count"></span>
+            <button type="button" class="btn btn--primary btn--sm" id="downloadSelected" disabled>
+              <span data-i18n="downloadSelected">打包下载</span>
+              <span class="badge" id="selectedCount">0</span>
+            </button>
+          </div>
+        </div>
+
+        <div class="table-wrap">
+          <table class="preset-table" aria-describedby="resultCount">
+            <thead>
+              <tr>
+                <th class="col-check" scope="col"></th>
+                <th scope="col" data-i18n="colName">预设</th>
+                <th scope="col" data-i18n="colMaterial">材料</th>
+                <th scope="col" data-i18n="colPrinter">打印机</th>
+                <th scope="col" data-i18n="colCompatible">兼容机型</th>
+                <th scope="col" data-i18n="colSlicer">切片器</th>
+                <th scope="col" data-i18n="colUpdated">更新</th>
+                <th scope="col" data-i18n="colAction">操作</th>
+              </tr>
+            </thead>
+            <tbody id="presetBody">
+              <tr class="loading-row"><td colspan="8" data-i18n="loading">正在加载预设…</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <p class="empty-state" id="emptyState" hidden data-i18n="empty">没有符合条件的预设。</p>
+      </div>
+    </section>
+
+    <section class="how-section" id="how">
+      <div class="container">
+        <div class="section-head">
+          <h2 data-i18n="howTitle">如何使用</h2>
+          <p data-i18n="howDesc">三步将 IPCON 预设导入你的切片器。</p>
+        </div>
+        <ol class="steps">
+          <li class="step">
+            <span class="step__hex" aria-hidden="true">1</span>
+            <h3 data-i18n="step1Title">筛选并下载</h3>
+            <p data-i18n="step1Desc">选择切片器与机型，下载单个 JSON 或打包 ZIP。</p>
+          </li>
+          <li class="step">
+            <span class="step__hex" aria-hidden="true">2</span>
+            <h3 data-i18n="step2Title">导入切片器</h3>
+            <p data-i18n="step2Desc">在 Bambu Studio / Orca / PrusaSlicer 等中导入耗材预设文件。</p>
+          </li>
+          <li class="step">
+            <span class="step__hex" aria-hidden="true">3</span>
+            <h3 data-i18n="step3Title">开始打印</h3>
+            <p data-i18n="step3Desc">选择 IPCON 耗材配置，按推荐温度与速度开打。</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <img src="assets/logo.svg" alt="ipcon" width="120" height="28" />
+        <p data-i18n="footerTag">IPCON 耗材 · 预设开放下载</p>
+      </div>
+      <p class="footer-note">© <span id="year"></span> IPCON</p>
+    </div>
+  </footer>
+
+  <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+
+  <!-- JSZip：多选打包下载 -->
+  <script src="https://cdn.jsdelivr.net/npm/jszip@3.10.1/dist/jszip.min.js"></script>
+  <script src="app.js" defer></script>
+</body>
+</html>
