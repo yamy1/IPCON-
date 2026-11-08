@@ -1,0 +1,62 @@
+{
+    "eng_plate_temp": [
+        "100"
+    ],
+    "eng_plate_temp_initial_layer": [
+        "100"
+    ],
+    "fan_max_speed": [
+        "20"
+    ],
+    "filament_density": [
+        "1.04"
+    ],
+    "filament_extruder_variant": [
+        "Direct Drive Standard",
+        "Direct Drive High Flow",
+        "Direct Drive E3D High Flow"
+    ],
+    "filament_flow_ratio": [
+        "0.98",
+        "0.98",
+        "nil"
+    ],
+    "filament_settings_id": [
+        "IPCON ABS-GF @BBL P2S"
+    ],
+    "from": "User",
+    "hot_plate_temp": [
+        "100"
+    ],
+    "hot_plate_temp_initial_layer": [
+        "100"
+    ],
+    "inherits": "Bambu ABS-GF @BBL P2S",
+    "name": "IPCON ABS-GF @BBL P2S",
+    "nozzle_temperature": [
+        "275",
+        "nil",
+        "nil"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "275",
+        "275",
+        "nil"
+    ],
+    "nozzle_temperature_range_high": [
+        "290"
+    ],
+    "nozzle_temperature_range_low": [
+        "265"
+    ],
+    "overhang_fan_speed": [
+        "40"
+    ],
+    "textured_plate_temp": [
+        "100"
+    ],
+    "textured_plate_temp_initial_layer": [
+        "100"
+    ],
+    "version": "2.8.0.6"
+}
