@@ -1,0 +1,15 @@
+{
+  "displayName": "IPCON ABS MK4",
+  "type": "filament",
+  "filament_type": "ABS",
+  "name": "IPCON ABS @ Prusa MK4",
+  "compatibleModels": ["MK4", "MK4S", "XL"],
+  "description": "IPCON ABS 预设，适配 Prusa MK4 / XL，建议封闭腔室打印。",
+  "updatedAt": "2026-03-15",
+  "nozzle_temperature": [255, 255],
+  "bed_temperature": [100, 100],
+  "filament_flow_ratio": ["0.94"],
+  "filament_max_volumetric_speed": ["12"],
+  "filament_vendor": ["IPCON"],
+  "filament_density": ["1.04"]
+}

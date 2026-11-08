@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 40" role="img" aria-label="ipcon">
+  <!-- ïÿb:c Logo þG( index.html -Š,‡öb assets/logo.png sï -->
+  <defs>
+    <linearGradient id="ipcon-g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2dd4bf"/>
+      <stop offset="100%" stop-color="#38bdf8"/>
+    </linearGradient>
+  </defs>
+  <!-- ï¯€þ -->
+  <g transform="translate(4,4)" fill="none" stroke="url(#ipcon-g)" stroke-width="1.6" stroke-linejoin="round">
+    <polygon points="16,2 28,9 28,23 16,30 4,23 4,9"/>
+    <polygon points="16,8 23,12 23,20 16,24 9,20 9,12" opacity="0.55"/>
+    <circle cx="16" cy="2" r="1.4" fill="#2dd4bf" stroke="none"/>
+    <circle cx="28" cy="9" r="1.4" fill="#38bdf8" stroke="none"/>
+    <circle cx="28" cy="23" r="1.4" fill="#2dd4bf" stroke="none"/>
+    <circle cx="16" cy="30" r="1.4" fill="#f59e0b" stroke="none"/>
+    <circle cx="4" cy="23" r="1.4" fill="#38bdf8" stroke="none"/>
+    <circle cx="4" cy="9" r="1.4" fill="#2dd4bf" stroke="none"/>
+  </g>
+  <!-- ‡W logoipcon -->
+  <text x="42" y="27"
+        font-family="'Space Grotesk', 'Segoe UI', sans-serif"
+        font-size="22"
+        font-weight="600"
+        letter-spacing="0.08em"
+        fill="#e8f4f2">ipcon</text>
+</svg>

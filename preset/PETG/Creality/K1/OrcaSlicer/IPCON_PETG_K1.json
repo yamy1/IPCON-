@@ -1,0 +1,15 @@
+{
+  "displayName": "IPCON PETG for K1",
+  "type": "filament",
+  "filament_type": "PETG",
+  "name": "IPCON PETG @ Creality K1",
+  "compatibleModels": ["K1", "K1 Max", "K1C"],
+  "description": "IPCON PETG 预设，针对创维 / Creality K1 系列调校。",
+  "updatedAt": "2026-03-18",
+  "nozzle_temperature": [245, 245],
+  "bed_temperature": [80, 80],
+  "filament_flow_ratio": ["0.95"],
+  "filament_max_volumetric_speed": ["15"],
+  "filament_vendor": ["IPCON"],
+  "filament_density": ["1.27"]
+}

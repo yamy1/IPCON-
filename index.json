@@ -1,0 +1,77 @@
+{
+  "generatedAt": "2026-11-08T06:18:47.291Z",
+  "materials": [
+    "ABS",
+    "PETG",
+    "PLA"
+  ],
+  "brands": [
+    "BambuLab",
+    "Creality",
+    "Prusa"
+  ],
+  "models": [
+    "K1",
+    "MK4",
+    "X1C"
+  ],
+  "slicers": [
+    "BambuStudio",
+    "OrcaSlicer",
+    "PrusaSlicer"
+  ],
+  "presets": [
+    {
+      "id": "ABS--Prusa--MK4--PrusaSlicer--IPCON_ABS_MK4",
+      "name": "IPCON ABS MK4",
+      "filename": "IPCON_ABS_MK4.json",
+      "material": "ABS",
+      "brand": "Prusa",
+      "model": "MK4",
+      "slicer": "PrusaSlicer",
+      "compatibleModels": [
+        "MK4",
+        "MK4S",
+        "XL"
+      ],
+      "description": "IPCON ABS 预设，适配 Prusa MK4 / XL，建议封闭腔室打印。",
+      "updatedAt": "2026-03-15",
+      "path": "preset/ABS/Prusa/MK4/PrusaSlicer/IPCON_ABS_MK4.json"
+    },
+    {
+      "id": "PETG--Creality--K1--OrcaSlicer--IPCON_PETG_K1",
+      "name": "IPCON PETG for K1",
+      "filename": "IPCON_PETG_K1.json",
+      "material": "PETG",
+      "brand": "Creality",
+      "model": "K1",
+      "slicer": "OrcaSlicer",
+      "compatibleModels": [
+        "K1",
+        "K1 Max",
+        "K1C"
+      ],
+      "description": "IPCON PETG 预设，针对创维 / Creality K1 系列调校。",
+      "updatedAt": "2026-03-18",
+      "path": "preset/PETG/Creality/K1/OrcaSlicer/IPCON_PETG_K1.json"
+    },
+    {
+      "id": "PLA--BambuLab--X1C--BambuStudio--IPCON_PLA_Generic",
+      "name": "IPCON PLA Generic",
+      "filename": "IPCON_PLA_Generic.json",
+      "material": "PLA",
+      "brand": "BambuLab",
+      "model": "X1C",
+      "slicer": "BambuStudio",
+      "compatibleModels": [
+        "X1C",
+        "X1",
+        "P1S",
+        "P1P"
+      ],
+      "description": "IPCON 通用 PLA 预设，适用于 Bambu Lab X1 / P1 系列。",
+      "updatedAt": "2026-03-20",
+      "path": "preset/PLA/BambuLab/X1C/BambuStudio/IPCON_PLA_Generic.json"
+    }
+  ]
+}
