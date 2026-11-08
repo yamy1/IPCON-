@@ -1,0 +1,12 @@
+{
+  "type": "filament",
+  "name": "IPCON TPU 95A @ Elegoo Neptune 4",
+  "filament_vendor": ["IPCON"],
+  "filament_type": ["TPU"],
+  "compatible_printers": ["Elegoo Neptune 4", "Elegoo Neptune 4 Pro"],
+  "nozzle_temperature": ["230"],
+  "bed_temperature": ["50"],
+  "filament_max_volumetric_speed": ["3.5"],
+  "filament_flow_ratio": ["1.0"],
+  "notes": "IPCON TPU 95A sample profile for ElegooSlicer. Print slowly for best results."
+}

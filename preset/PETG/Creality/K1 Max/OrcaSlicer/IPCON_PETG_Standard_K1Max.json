@@ -1,0 +1,12 @@
+{
+  "type": "filament",
+  "name": "IPCON PETG Standard @ Creality K1 Max",
+  "filament_vendor": ["IPCON"],
+  "filament_type": ["PETG"],
+  "compatible_printers": ["Creality K1 Max 0.4 nozzle", "Creality K1 0.4 nozzle"],
+  "nozzle_temperature": ["250"],
+  "bed_temperature": ["80"],
+  "filament_max_volumetric_speed": ["12"],
+  "filament_flow_ratio": ["0.95"],
+  "notes": "IPCON PETG Standard sample profile for OrcaSlicer."
+}

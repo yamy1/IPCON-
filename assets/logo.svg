@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 72" role="img" aria-label="IPCON">
+  <!-- Replace this file with your official logo image later -->
+  <defs>
+    <linearGradient id="hexGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2dd4bf"/>
+      <stop offset="100%" stop-color="#38bdf8"/>
+    </linearGradient>
+  </defs>
+  <!-- Benzene-inspired hexagon mark -->
+  <g transform="translate(8,10)" fill="none" stroke="url(#hexGrad)" stroke-width="2.2" stroke-linejoin="round">
+    <polygon points="26,2 46,14 46,38 26,50 6,38 6,14"/>
+    <polygon points="26,12 38,19 38,33 26,40 14,33 14,19" opacity="0.55"/>
+    <circle cx="26" cy="14" r="2.2" fill="#f59e0b" stroke="none"/>
+    <circle cx="40" cy="26" r="2.2" fill="#2dd4bf" stroke="none"/>
+    <circle cx="26" cy="38" r="2.2" fill="#38bdf8" stroke="none"/>
+  </g>
+  <text x="72" y="46" font-family="'Segoe UI', 'PingFang SC', sans-serif" font-size="34" font-weight="700" letter-spacing="3" fill="#e2e8f0">ipcon</text>
+</svg>

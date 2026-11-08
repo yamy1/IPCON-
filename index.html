@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="IPCON 3D 打印耗材切片预设下载 — ipcon耗材官方预设库" />
+  <title>IPCON · 耗材预设</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="assets/logo.svg" type="image/svg+xml" />
+</head>
+<body>
+  <!-- Decorative benzene lattice (pure CSS/SVG background) -->
+  <div class="bg-lattice" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="./" aria-label="IPCON home">
+        <!-- Swap assets/logo.svg with your official logo file when ready -->
+        <img class="brand-logo" src="assets/logo.svg" alt="IPCON" width="160" height="42" />
+        <span class="brand-tag" data-i18n="brandTag">耗材预设</span>
+      </a>
+
+      <div class="header-actions">
+        <div class="lang-switch" role="group" aria-label="Language">
+          <button type="button" class="lang-btn is-active" data-lang="zh">中文</button>
+          <button type="button" class="lang-btn" data-lang="en">EN</button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <p class="eyebrow">
+            <span class="hex-dot" aria-hidden="true"></span>
+            <span data-i18n="eyebrow">ipcon 耗材</span>
+          </p>
+          <h1 data-i18n="heroTitle">IPCON</h1>
+          <p class="hero-lead" data-i18n="heroLead">精准调校的切片预设，按材料与机型一键下载。</p>
+          <div class="hero-cta">
+            <a class="btn btn-primary" href="#presets" data-i18n="ctaBrowse">浏览预设</a>
+            <a class="btn btn-ghost" href="#how" data-i18n="ctaHow">如何导入</a>
+          </div>
+        </div>
+        <div class="hero-visual" aria-hidden="true">
+          <svg class="benzene-hero" viewBox="0 0 320 320" fill="none">
+            <defs>
+              <linearGradient id="ringStroke" x1="0" y1="0" x2="1" y2="1">
+                <stop stop-color="#2dd4bf"/>
+                <stop offset="1" stop-color="#38bdf8"/>
+              </linearGradient>
+            </defs>
+            <g stroke="url(#ringStroke)" stroke-width="1.6" opacity="0.9">
+              <polygon points="160,28 260,86 260,202 160,260 60,202 60,86"/>
+              <polygon points="160,78 220,113 220,183 160,218 100,183 100,113"/>
+              <line x1="160" y1="28" x2="160" y2="78"/>
+              <line x1="260" y1="86" x2="220" y2="113"/>
+              <line x1="260" y1="202" x2="220" y2="183"/>
+              <line x1="160" y1="260" x2="160" y2="218"/>
+              <line x1="60" y1="202" x2="100" y2="183"/>
+              <line x1="60" y1="86" x2="100" y2="113"/>
+            </g>
+            <circle cx="160" cy="28" r="5" fill="#f59e0b"/>
+            <circle cx="260" cy="86" r="5" fill="#2dd4bf"/>
+            <circle cx="260" cy="202" r="5" fill="#38bdf8"/>
+            <circle cx="160" cy="260" r="5" fill="#2dd4bf"/>
+            <circle cx="60" cy="202" r="5" fill="#f59e0b"/>
+            <circle cx="60" cy="86" r="5" fill="#38bdf8"/>
+          </svg>
+        </div>
+      </div>
+    </section>
+
+    <section class="slicer-section container" id="slicers">
+      <div class="section-head">
+        <h2 data-i18n="slicerTitle">选择切片器</h2>
+        <p data-i18n="slicerDesc">先选切片器，再按材料与打印机筛选预设。</p>
+      </div>
+      <div class="slicer-grid" id="slicerGrid" role="listbox" aria-label="Slicer"></div>
+    </section>
+
+    <section class="filter-section container" id="filters">
+      <div class="filter-bar">
+        <label class="filter-field">
+          <span data-i18n="filterMaterial">材料</span>
+          <select id="filterMaterial"></select>
+        </label>
+        <label class="filter-field">
+          <span data-i18n="filterBrand">打印机品牌</span>
+          <select id="filterBrand"></select>
+        </label>
+        <label class="filter-field">
+          <span data-i18n="filterModel">打印机型号</span>
+          <select id="filterModel"></select>
+        </label>
+        <label class="filter-field filter-search">
+          <span data-i18n="filterSearch">搜索</span>
+          <input id="filterSearch" type="search" autocomplete="off" />
+        </label>
+        <button type="button" class="btn btn-ghost btn-reset" id="resetFilters" data-i18n="resetFilters">重置</button>
+      </div>
+    </section>
+
+    <section class="preset-section container" id="presets">
+      <div class="list-toolbar">
+        <div class="list-meta">
+          <span id="resultCount">0</span>
+          <span data-i18n="resultSuffix">个预设</span>
+        </div>
+        <div class="list-actions">
+          <label class="check-all">
+            <input type="checkbox" id="selectAll" />
+            <span data-i18n="selectAll">全选当前</span>
+          </label>
+          <button type="button" class="btn btn-primary" id="downloadSelected" disabled>
+            <span data-i18n="downloadSelected">打包下载</span>
+            <span class="badge" id="selectedCount">0</span>
+          </button>
+        </div>
+      </div>
+
+      <div id="statusBanner" class="status-banner" hidden></div>
+      <div class="preset-list" id="presetList"></div>
+      <div class="empty-state" id="emptyState" hidden>
+        <svg class="empty-hex" viewBox="0 0 64 64" aria-hidden="true">
+          <polygon points="32,4 56,18 56,46 32,60 8,46 8,18" fill="none" stroke="currentColor" stroke-width="2"/>
+        </svg>
+        <p data-i18n="emptyText">没有匹配的预设，请调整筛选条件。</p>
+      </div>
+    </section>
+
+    <section class="how-section container" id="how">
+      <div class="section-head">
+        <h2 data-i18n="howTitle">如何导入</h2>
+        <p data-i18n="howDesc">下载 JSON 后，在对应切片器中导入耗材配置即可使用。</p>
+      </div>
+      <ol class="how-steps">
+        <li data-i18n="howStep1">选择切片器与机型，下载单个或多个预设。</li>
+        <li data-i18n="howStep2">打开切片器 → 耗材 / Filament 设置 → 导入配置。</li>
+        <li data-i18n="howStep3">选择下载的 JSON（或解压 ZIP 后选择文件）完成导入。</li>
+      </ol>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <img src="assets/logo.svg" alt="" width="120" height="32" />
+        <p data-i18n="footerNote">IPCON · 高分子材料与 3D 打印耗材</p>
+      </div>
+      <p class="footer-meta">
+        <span data-i18n="footerGenerated">索引生成时间</span>:
+        <time id="generatedAt">—</time>
+      </p>
+    </div>
+  </footer>
+
+  <!-- JSZip from CDN for multi-file ZIP downloads -->
+  <script src="https://cdn.jsdelivr.net/npm/jszip@3.10.1/dist/jszip.min.js"></script>
+  <script src="app.js" defer></script>
+</body>
+</html>
