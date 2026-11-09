@@ -1,0 +1,56 @@
+{
+    "fan_cooling_layer_time": [
+        "20"
+    ],
+    "fan_max_speed": [
+        "40"
+    ],
+    "fan_min_speed": [
+        "10"
+    ],
+    "filament_extruder_variant": [
+        "Direct Drive Standard",
+        "Direct Drive High Flow",
+        "Direct Drive E3D High Flow"
+    ],
+    "filament_settings_id": [
+        "IPCON PPA @BBL H2S"
+    ],
+    "from": "User",
+    "inherits": "Generic PA @BBL H2S 0.4 nozzle",
+    "name": "IPCON PPA @BBL H2S",
+    "nozzle_temperature": [
+        "290",
+        "290",
+        "nil"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "290",
+        "290",
+        "nil"
+    ],
+    "nozzle_temperature_range_high": [
+        "300"
+    ],
+    "nozzle_temperature_range_low": [
+        "270"
+    ],
+    "overhang_fan_speed": [
+        "50"
+    ],
+    "overhang_fan_threshold": [
+        "25%"
+    ],
+    "slow_down_layer_time": [
+        "6"
+    ],
+    "slow_down_min_speed": [
+        "20",
+        "20",
+        "10"
+    ],
+    "temperature_vitrification": [
+        "130"
+    ],
+    "version": "2.9.0.75"
+}

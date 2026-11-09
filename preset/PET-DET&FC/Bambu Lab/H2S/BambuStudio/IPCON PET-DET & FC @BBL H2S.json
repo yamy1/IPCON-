@@ -1,0 +1,55 @@
+{
+    "fan_max_speed": [
+        "20"
+    ],
+    "fan_min_speed": [
+        "10"
+    ],
+    "filament_density": [
+        "1.39"
+    ],
+    "filament_extruder_variant": [
+        "Direct Drive Standard",
+        "Direct Drive High Flow",
+        "Direct Drive E3D High Flow"
+    ],
+    "filament_flow_ratio": [
+        "0.98",
+        "nil",
+        "nil"
+    ],
+    "filament_max_volumetric_speed": [
+        "15",
+        "nil",
+        "nil"
+    ],
+    "filament_settings_id": [
+        "PET-DET & FC @BBL H2S"
+    ],
+    "from": "User",
+    "inherits": "Generic PETG @BBL H2S",
+    "name": "IPCON PET-DET & FC @BBL H2S",
+    "nozzle_temperature": [
+        "280",
+        "nil",
+        "nil"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "280",
+        "nil",
+        "nil"
+    ],
+    "nozzle_temperature_range_high": [
+        "300"
+    ],
+    "nozzle_temperature_range_low": [
+        "270"
+    ],
+    "pre_start_fan_time": [
+        "2"
+    ],
+    "slow_down_layer_time": [
+        "8"
+    ],
+    "version": "2.9.0.75"
+}

@@ -1,0 +1,18 @@
+{
+    "fan_max_speed": [
+        "25"
+    ],
+    "filament_extruder_variant": [
+        "Direct Drive Standard"
+    ],
+    "filament_settings_id": [
+        "IPCON PPA-CF&GF @BBL A1"
+    ],
+    "from": "User",
+    "inherits": "Bambu PAHT-CF @BBL A1",
+    "name": "IPCON PPA-CF&GF @BBL A1",
+    "overhang_fan_threshold": [
+        "25%"
+    ],
+    "version": "2.9.0.75"
+}

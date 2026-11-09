@@ -1,0 +1,17 @@
+{
+    "filament_extruder_variant": [
+        "Direct Drive Standard",
+        "Direct Drive High Flow",
+        "Direct Drive E3D High Flow",
+        "Bowden Standard",
+        "Bowden High Flow",
+        "Bowden E3D High Flow"
+    ],
+    "filament_settings_id": [
+        "IPCON TPU-95A-HS @BBL X2D"
+    ],
+    "from": "User",
+    "inherits": "Bambu TPU 95A HF @BBL X2D 0.4 nozzle",
+    "name": "IPCON TPU-95A-HS @BBL X2D",
+    "version": "2.9.0.75"
+}

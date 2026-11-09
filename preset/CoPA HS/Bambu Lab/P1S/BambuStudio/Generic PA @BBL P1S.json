@@ -1,0 +1,42 @@
+{
+    "fan_cooling_layer_time": [
+        "20"
+    ],
+    "fan_max_speed": [
+        "40"
+    ],
+    "fan_min_speed": [
+        "10"
+    ],
+    "filament_extruder_variant": [
+        "Direct Drive Standard"
+    ],
+    "filament_flow_ratio": [
+        "0.98"
+    ],
+    "filament_settings_id": [
+        "Generic PA @BBL P1S"
+    ],
+    "from": "User",
+    "inherits": "Generic PA",
+    "name": "Generic PA @BBL P1S",
+    "nozzle_temperature": [
+        "290"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "290"
+    ],
+    "nozzle_temperature_range_high": [
+        "300"
+    ],
+    "nozzle_temperature_range_low": [
+        "270"
+    ],
+    "overhang_fan_speed": [
+        "40"
+    ],
+    "slow_down_layer_time": [
+        "6"
+    ],
+    "version": "2.8.0.6"
+}

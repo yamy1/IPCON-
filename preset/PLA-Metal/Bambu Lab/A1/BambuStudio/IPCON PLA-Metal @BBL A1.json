@@ -1,0 +1,36 @@
+{
+    "fan_cooling_layer_time": [
+        "30"
+    ],
+    "fan_max_speed": [
+        "30"
+    ],
+    "fan_min_speed": [
+        "10"
+    ],
+    "filament_extruder_variant": [
+        "Direct Drive Standard"
+    ],
+    "filament_settings_id": [
+        "IPCON PLA-Metal @BBL A1"
+    ],
+    "from": "User",
+    "inherits": "Bambu PETG HF @BBL A1",
+    "name": "IPCON PLA-Metal @BBL A1",
+    "nozzle_temperature": [
+        "250"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "255"
+    ],
+    "nozzle_temperature_range_low": [
+        "240"
+    ],
+    "overhang_fan_speed": [
+        "90"
+    ],
+    "slow_down_layer_time": [
+        "8"
+    ],
+    "version": "2.9.0.75"
+}

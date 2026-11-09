@@ -1,0 +1,20 @@
+{
+    "fan_max_speed": [
+        "35"
+    ],
+    "filament_extruder_variant": [
+        "Direct Drive Standard",
+        "Direct Drive High Flow",
+        "Direct Drive E3D High Flow"
+    ],
+    "filament_settings_id": [
+        "IPCON PPA-CF&GF @BBL H2D"
+    ],
+    "from": "User",
+    "inherits": "Bambu PPA-CF @BBL H2D",
+    "name": "IPCON PPA-CF&GF @BBL H2D",
+    "overhang_fan_threshold": [
+        "10%"
+    ],
+    "version": "2.9.0.75"
+}

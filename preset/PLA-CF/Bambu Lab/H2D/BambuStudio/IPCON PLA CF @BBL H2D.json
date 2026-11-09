@@ -1,0 +1,43 @@
+{
+    "fan_cooling_layer_time": [
+        "30"
+    ],
+    "fan_min_speed": [
+        "15"
+    ],
+    "filament_extruder_variant": [
+        "Direct Drive Standard",
+        "Direct Drive High Flow",
+        "Direct Drive E3D High Flow"
+    ],
+    "filament_max_volumetric_speed": [
+        "21",
+        "nil",
+        "25"
+    ],
+    "filament_settings_id": [
+        "IPCON PLA CF  @BBL H2D"
+    ],
+    "from": "User",
+    "inherits": "Bambu PETG HF @BBL H2D 0.4 nozzle",
+    "name": "IPCON PLA CF  @BBL H2D",
+    "nozzle_temperature": [
+        "250",
+        "nil",
+        "nil"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "255",
+        "250",
+        "nil"
+    ],
+    "nozzle_temperature_range_low": [
+        "240"
+    ],
+    "slow_down_min_speed": [
+        "10",
+        "20",
+        "20"
+    ],
+    "version": "2.9.0.75"
+}

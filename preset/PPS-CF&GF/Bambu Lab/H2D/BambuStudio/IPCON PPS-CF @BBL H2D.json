@@ -1,0 +1,54 @@
+{
+    "fan_max_speed": [
+        "35"
+    ],
+    "filament_extruder_variant": [
+        "Direct Drive Standard",
+        "Direct Drive High Flow",
+        "Direct Drive E3D High Flow"
+    ],
+    "filament_flow_ratio": [
+        "0.98",
+        "nil",
+        "nil"
+    ],
+    "filament_max_volumetric_speed": [
+        "12",
+        "nil",
+        "nil"
+    ],
+    "filament_settings_id": [
+        "IPCON PPS-CF @BBL H2D"
+    ],
+    "from": "User",
+    "inherits": "Generic PPS-CF @BBL H2D",
+    "name": "IPCON PPS-CF @BBL H2D",
+    "nozzle_temperature": [
+        "345",
+        "nil",
+        "nil"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "345",
+        "nil",
+        "nil"
+    ],
+    "nozzle_temperature_range_high": [
+        "350"
+    ],
+    "nozzle_temperature_range_low": [
+        "320"
+    ],
+    "overhang_fan_speed": [
+        "40"
+    ],
+    "overhang_fan_threshold": [
+        "10%"
+    ],
+    "slow_down_min_speed": [
+        "20",
+        "10",
+        "10"
+    ],
+    "version": "2.9.0.75"
+}

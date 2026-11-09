@@ -1,0 +1,14 @@
+{
+    "filament_extruder_variant": [
+        "Direct Drive Standard",
+        "Direct Drive High Flow",
+        "Direct Drive E3D High Flow"
+    ],
+    "filament_settings_id": [
+        "IPCON TPU-95A-HS @BBL H2S"
+    ],
+    "from": "User",
+    "inherits": "Bambu TPU 95A HF @BBL H2S",
+    "name": "IPCON TPU-95A-HS @BBL H2S",
+    "version": "2.9.0.75"
+}

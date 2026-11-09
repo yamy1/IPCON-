@@ -1,0 +1,23 @@
+{
+    "fan_max_speed": [
+        "35"
+    ],
+    "filament_extruder_variant": [
+        "Direct Drive Standard",
+        "Direct Drive High Flow"
+    ],
+    "filament_max_volumetric_speed": [
+        "12",
+        "nil"
+    ],
+    "filament_settings_id": [
+        "IPCON PPA-GF-FR @BBL P1S"
+    ],
+    "from": "User",
+    "inherits": "Bambu PPA-CF @BBL P1S",
+    "name": "IPCON PPA-GF-FR @BBL P1S",
+    "overhang_fan_threshold": [
+        "10%"
+    ],
+    "version": "2.9.0.75"
+}
