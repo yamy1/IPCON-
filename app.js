@@ -9,7 +9,7 @@
       brandTag: "耗材预设",
       guideLink: "推荐选配",
       guideLinkTitle: "打开推荐选配耗材指南",
-      heroTitle: "聚合物级切片预设",
+      heroTitle: "聚合物切片预设",
       heroLead:
         "为 IPCON 艾普创线材精调的切片配置，按切片软件与机型筛选，一键下载 JSON 或打包 ZIP。",
       ctaBrowse: "浏览预设",
@@ -29,7 +29,7 @@
       howStep2: "下载单个 JSON，或勾选多项打包 ZIP。",
       howStep3: "在切片软件中打开「导入预设 / Import Config」，选择文件。",
       footerTag: "艾普创 · 3D 打印耗材预设",
-      footerNote: "静态站点 · 数据来自 index.json",
+      footerNote: "静态站点 · 数据来自 IPCON",
       resultCount: "共 {n} 个预设",
       download: "下载",
       material: "材料",

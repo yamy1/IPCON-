@@ -71,27 +71,4 @@ npx --yes serve -l 8080
 
 访问：<http://localhost:8080>
 
-## 部署到 GitHub Pages
 
-代码合并进 `main` 后，需要仓库管理员在 GitHub 上手动打开 Pages（代理无法替你点 Settings）：
-
-1. 打开仓库 **Settings → Pages**
-2. **Build and deployment → Source** 选 **Deploy from a branch**
-3. **Branch** 选 **main**
-4. **Folder** 选 **/ (root)**
-5. 点击 **Save**
-
-等待一两分钟后访问：
-
-`https://yamy1.github.io/IPCON-/`
-
-说明：
-
-- 根目录已包含空文件 `.nojekyll`，避免 GitHub 用 Jekyll 处理站点。
-- 资源路径均为相对路径，适合 `https://<user>.github.io/IPCON-/` 子路径部署。
-
-## 品牌与 Logo
-
-- 官方色：深蓝 `#00458E`（RGB 0,69,142）、亮橙 `#E67015`（RGB 230,112,21）
-- 字标：ipcon + 中文副标 艾普创
-- 站点使用 `assets/logo.png`；完整品牌色板原稿见 `assets/ipcon-official-logo.jpg`
