@@ -126,30 +126,37 @@ img {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 0.75rem;
+  width: 100%;
+  max-width: 100%;
   min-height: var(--header-h);
-  padding: 0.75rem clamp(1rem, 4vw, 2.5rem);
+  padding: 0.75rem clamp(0.75rem, 3vw, 2.5rem);
   backdrop-filter: blur(14px);
   background: rgba(6, 11, 20, 0.82);
   border-bottom: 1px solid var(--line);
+  box-sizing: border-box;
 }
 
 .brand {
   display: flex;
   align-items: center;
   gap: 0.85rem;
+  min-width: 0;
+  flex: 1 1 auto;
 }
 
 .brand__logo-slot {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  min-width: 150px;
+  min-width: 0;
   min-height: 48px;
   padding: 0.35rem 0.65rem;
   /* Official mark reads on light; plate keeps brand colors accurate on dark UI */
   background: #ffffff;
   border: 1px solid rgba(0, 69, 142, 0.18);
   border-radius: 6px;
+  flex-shrink: 1;
 }
 
 .brand__logo-slot img {
@@ -170,48 +177,59 @@ img {
   display: flex;
   align-items: center;
   gap: 0.55rem;
-  flex-shrink: 0;
+  flex: 0 0 auto;
+  margin-left: auto;
+  max-width: 100%;
 }
 
 .guide-link {
   display: inline-flex;
   align-items: center;
-  gap: 0.4rem;
-  padding: 0.48rem 0.95rem;
+  justify-content: center;
+  gap: 0.35rem;
+  height: 2.35rem;
+  padding: 0 0.9rem;
   border-radius: 999px;
-  border: 1px solid rgba(230, 112, 21, 0.55);
+  border: 1px solid rgba(230, 112, 21, 0.65);
   background:
-    linear-gradient(135deg, rgba(230, 112, 21, 0.22), rgba(0, 69, 142, 0.12));
-  color: #ffd4a8;
+    linear-gradient(135deg, rgba(230, 112, 21, 0.28), rgba(0, 69, 142, 0.16));
+  color: #ffe0bc;
   font-size: 0.88rem;
   font-weight: 600;
   letter-spacing: 0.04em;
   white-space: nowrap;
+  line-height: 1;
+  position: relative;
+  z-index: 1;
   transition: border-color 0.2s, background 0.2s, color 0.2s, transform 0.15s;
 }
 
 .guide-link:hover {
   border-color: var(--brand-orange);
   background:
-    linear-gradient(135deg, rgba(230, 112, 21, 0.38), rgba(0, 69, 142, 0.2));
-  color: #fff4e8;
+    linear-gradient(135deg, rgba(230, 112, 21, 0.42), rgba(0, 69, 142, 0.22));
+  color: #fff7ee;
   transform: translateY(-1px);
 }
 
 .guide-link__icon {
-  opacity: 0.85;
+  opacity: 0.9;
   flex-shrink: 0;
+  width: 0.85rem;
+  height: 0.85rem;
 }
 
 .lang-toggle {
   display: inline-flex;
   align-items: center;
   gap: 0.35rem;
-  padding: 0.45rem 0.8rem;
+  height: 2.35rem;
+  padding: 0 0.8rem;
   border: 1px solid var(--line);
   border-radius: 999px;
   background: rgba(10, 20, 36, 0.85);
   cursor: pointer;
+  line-height: 1;
   transition: border-color 0.2s, background 0.2s;
 }
 
@@ -733,13 +751,33 @@ img {
     display: none;
   }
 
+  .brand__logo-slot {
+    padding: 0.25rem 0.45rem;
+    min-height: 40px;
+  }
+
+  .brand__logo-slot img {
+    height: 32px;
+  }
+
   .guide-link {
-    padding: 0.42rem 0.7rem;
-    font-size: 0.8rem;
+    height: 2.1rem;
+    padding: 0 0.7rem;
+    font-size: 0.78rem;
+  }
+
+  .guide-link__icon {
+    display: none;
+  }
+
+  .lang-toggle {
+    height: 2.1rem;
+    padding: 0 0.65rem;
+    font-size: 0.78rem;
   }
 
   .header-actions {
-    gap: 0.4rem;
+    gap: 0.35rem;
   }
 
   .filters {
@@ -760,6 +798,22 @@ img {
   .list-toolbar__actions {
     width: 100%;
     justify-content: space-between;
+  }
+}
+
+@media (max-width: 380px) {
+  .site-header {
+    padding-inline: 0.55rem;
+    gap: 0.4rem;
+  }
+
+  .guide-link__label {
+    letter-spacing: 0;
+  }
+
+  .lang-toggle__sep,
+  .lang-toggle__idle {
+    display: none;
   }
 }
 
