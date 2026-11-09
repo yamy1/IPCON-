@@ -7,6 +7,8 @@
   const I18N = {
     zh: {
       brandTag: "耗材预设",
+      guideLink: "推荐选配",
+      guideLinkTitle: "打开推荐选配耗材指南",
       heroTitle: "聚合物级切片预设",
       heroLead:
         "为 IPCON 艾普创线材精调的切片配置，按切片软件与机型筛选，一键下载 JSON 或打包 ZIP。",
@@ -43,6 +45,8 @@
     },
     en: {
       brandTag: "Filament Presets",
+      guideLink: "Match Guide",
+      guideLinkTitle: "Open recommended filament matching guide",
       heroTitle: "Polymer-tuned slicer presets",
       heroLead:
         "Slicer profiles tuned for IPCON (艾普创) filament. Filter by slicer and printer, then download JSON or a ZIP pack.",
@@ -115,6 +119,10 @@
     document.querySelectorAll("[data-i18n]").forEach((node) => {
       const key = node.getAttribute("data-i18n");
       if (key) node.textContent = t(key);
+    });
+    document.querySelectorAll("[data-i18n-title]").forEach((node) => {
+      const key = node.getAttribute("data-i18n-title");
+      if (key) node.setAttribute("title", t(key));
     });
     const label = els.langToggle.querySelector("[data-lang-label]");
     const idle = els.langToggle.querySelector(".lang-toggle__idle");
