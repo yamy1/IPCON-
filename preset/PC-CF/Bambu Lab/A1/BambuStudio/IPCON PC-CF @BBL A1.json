@@ -1,0 +1,39 @@
+{
+    "fan_cooling_layer_time": [
+        "5"
+    ],
+    "fan_max_speed": [
+        "30"
+    ],
+    "filament_extruder_variant": [
+        "Direct Drive Standard"
+    ],
+    "filament_flow_ratio": [
+        "0.95"
+    ],
+    "filament_max_volumetric_speed": [
+        "12"
+    ],
+    "filament_settings_id": [
+        "IPCON PC-CF @BBL A1"
+    ],
+    "from": "User",
+    "inherits": "Bambu PC @BBL A1",
+    "name": "IPCON PC-CF @BBL A1",
+    "nozzle_temperature": [
+        "290"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "290"
+    ],
+    "overhang_fan_speed": [
+        "40"
+    ],
+    "overhang_fan_threshold": [
+        "10%"
+    ],
+    "slow_down_layer_time": [
+        "2"
+    ],
+    "version": "2.9.0.75"
+}

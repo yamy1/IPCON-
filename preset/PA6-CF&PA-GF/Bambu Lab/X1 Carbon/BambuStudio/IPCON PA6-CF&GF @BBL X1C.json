@@ -1,0 +1,26 @@
+{
+    "fan_max_speed": [
+        "35"
+    ],
+    "filament_extruder_variant": [
+        "Direct Drive Standard",
+        "Direct Drive High Flow"
+    ],
+    "filament_max_volumetric_speed": [
+        "12",
+        "nil"
+    ],
+    "filament_settings_id": [
+        "IPCON PAHT-CF @BBL X1C"
+    ],
+    "from": "User",
+    "inherits": "Bambu PAHT-CF @BBL X1C",
+    "name": "IPCON PA6-CF&GF @BBL X1C",
+    "nozzle_temperature_range_low": [
+        "270"
+    ],
+    "overhang_fan_threshold": [
+        "10%"
+    ],
+    "version": "2.8.0.6"
+}

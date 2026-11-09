@@ -1,8 +1,15 @@
 {
-  "generatedAt": "2026-11-08T13:03:58.799Z",
+  "generatedAt": "2026-11-09T04:34:37.452Z",
   "materials": [
     "ABS",
     "ASA-CF&GF",
+    "CoPA HS",
+    "PA6-CF&PA-GF",
+    "PAHT-CF&GF",
+    "PC FR HS",
+    "PC-CF",
+    "PC-GF",
+    "PET-CF",
     "PETG",
     "PLA"
   ],
@@ -21,7 +28,8 @@
     "MK4",
     "Neptune 4 Pro",
     "P2S",
-    "X1 Carbon"
+    "X1 Carbon",
+    "X2D"
   ],
   "slicers": [
     "BambuStudio",
@@ -119,6 +127,741 @@
       ],
       "updated": "2026-11-08",
       "version": "2.8.0.6"
+    },
+    {
+      "id": "copa-hs-bambu-lab-a1-bambustudio-copa-hs-bbl-a1",
+      "name": "CoPA HS @BBL A1",
+      "material": "CoPA HS",
+      "brand": "Bambu Lab",
+      "model": "A1",
+      "slicer": "BambuStudio",
+      "file": "CoPA HS @BBL A1.json",
+      "path": "preset/CoPA HS/Bambu Lab/A1/BambuStudio/CoPA HS @BBL A1.json",
+      "compatibleModels": [
+        "Bambu Lab A1"
+      ],
+      "updated": "2026-11-08",
+      "version": "2.8.0.6"
+    },
+    {
+      "id": "copa-hs-bambu-lab-h2c-bambustudio-copa-hs-bbl-h2c",
+      "name": "CoPA HS @BBL H2C",
+      "material": "CoPA HS",
+      "brand": "Bambu Lab",
+      "model": "H2C",
+      "slicer": "BambuStudio",
+      "file": "CoPA HS @BBL H2C .json",
+      "path": "preset/CoPA HS/Bambu Lab/H2C/BambuStudio/CoPA HS @BBL H2C .json",
+      "compatibleModels": [
+        "Bambu Lab H2C"
+      ],
+      "updated": "2026-11-08",
+      "version": "2.8.0.6"
+    },
+    {
+      "id": "copa-hs-bambu-lab-h2d-bambustudio-copa-hs-bbl-h2d",
+      "name": "CoPA HS @BBL H2D",
+      "material": "CoPA HS",
+      "brand": "Bambu Lab",
+      "model": "H2D",
+      "slicer": "BambuStudio",
+      "file": "CoPA HS @BBL H2D.json",
+      "path": "preset/CoPA HS/Bambu Lab/H2D/BambuStudio/CoPA HS @BBL H2D.json",
+      "compatibleModels": [
+        "Bambu Lab H2D"
+      ],
+      "updated": "2026-11-08",
+      "version": "2.8.0.6"
+    },
+    {
+      "id": "copa-hs-bambu-lab-h2s-bambustudio-copa-hs-bbl-h2s",
+      "name": "CoPA HS @BBL H2S",
+      "material": "CoPA HS",
+      "brand": "Bambu Lab",
+      "model": "H2S",
+      "slicer": "BambuStudio",
+      "file": "CoPA HS @BBL H2S.json",
+      "path": "preset/CoPA HS/Bambu Lab/H2S/BambuStudio/CoPA HS @BBL H2S.json",
+      "compatibleModels": [
+        "Bambu Lab H2S"
+      ],
+      "updated": "2026-11-08",
+      "version": "2.8.0.6"
+    },
+    {
+      "id": "copa-hs-bambu-lab-p2s-bambustudio-copa-hs-bbl-p2s",
+      "name": "CoPA HS @BBL P2S",
+      "material": "CoPA HS",
+      "brand": "Bambu Lab",
+      "model": "P2S",
+      "slicer": "BambuStudio",
+      "file": "CoPA HS @BBL P2S.json",
+      "path": "preset/CoPA HS/Bambu Lab/P2S/BambuStudio/CoPA HS @BBL P2S.json",
+      "compatibleModels": [
+        "Bambu Lab P2S"
+      ],
+      "updated": "2026-11-08",
+      "version": "2.8.0.6"
+    },
+    {
+      "id": "copa-hs-bambu-lab-x1-carbon-bambustudio-generic-pa-bbl-x1c-p1s",
+      "name": "Generic PA @BBL X1C&P1S",
+      "material": "CoPA HS",
+      "brand": "Bambu Lab",
+      "model": "X1 Carbon",
+      "slicer": "BambuStudio",
+      "file": "Generic PA @BBL X1C&P1S.json",
+      "path": "preset/CoPA HS/Bambu Lab/X1 Carbon/BambuStudio/Generic PA @BBL X1C&P1S.json",
+      "compatibleModels": [
+        "Bambu Lab X1 Carbon"
+      ],
+      "updated": "2026-11-08",
+      "version": "2.8.0.6"
+    },
+    {
+      "id": "copa-hs-bambu-lab-x2d-bambustudio-copa-hs-bbl-x2d",
+      "name": "CoPA HS @BBL X2D",
+      "material": "CoPA HS",
+      "brand": "Bambu Lab",
+      "model": "X2D",
+      "slicer": "BambuStudio",
+      "file": "CoPA HS @BBL X2D.json",
+      "path": "preset/CoPA HS/Bambu Lab/X2D/BambuStudio/CoPA HS @BBL X2D.json",
+      "compatibleModels": [
+        "Bambu Lab X2D"
+      ],
+      "updated": "2026-11-08",
+      "version": "2.8.0.6"
+    },
+    {
+      "id": "pa6-cf-pa-gf-bambu-lab-a1-bambustudio-ipcon-pa6-cf-gf-bbl-a1",
+      "name": "IPCON PA6-CF&GF @BBL A1",
+      "material": "PA6-CF&PA-GF",
+      "brand": "Bambu Lab",
+      "model": "A1",
+      "slicer": "BambuStudio",
+      "file": "IPCON PA6-CF&GF @BBL A1.json",
+      "path": "preset/PA6-CF&PA-GF/Bambu Lab/A1/BambuStudio/IPCON PA6-CF&GF @BBL A1.json",
+      "compatibleModels": [
+        "Bambu Lab A1"
+      ],
+      "updated": "2026-11-08",
+      "version": "2.8.0.6"
+    },
+    {
+      "id": "pa6-cf-pa-gf-bambu-lab-h2c-bambustudio-ipcon-pa6-cf-gf-bbl-h2c",
+      "name": "IPCON PA6-CF&GF  @BBL H2C",
+      "material": "PA6-CF&PA-GF",
+      "brand": "Bambu Lab",
+      "model": "H2C",
+      "slicer": "BambuStudio",
+      "file": "IPCON PA6-CF&GF  @BBL H2C.json",
+      "path": "preset/PA6-CF&PA-GF/Bambu Lab/H2C/BambuStudio/IPCON PA6-CF&GF  @BBL H2C.json",
+      "compatibleModels": [
+        "Bambu Lab H2C"
+      ],
+      "updated": "2026-11-08",
+      "version": "2.8.0.6"
+    },
+    {
+      "id": "pa6-cf-pa-gf-bambu-lab-h2d-bambustudio-ipcon-pa6-cf-gf-bbl-h2d",
+      "name": "IPCON PA6-CF&GF @BBL H2D",
+      "material": "PA6-CF&PA-GF",
+      "brand": "Bambu Lab",
+      "model": "H2D",
+      "slicer": "BambuStudio",
+      "file": "IPCON PA6-CF&GF  @BBL H2D.json",
+      "path": "preset/PA6-CF&PA-GF/Bambu Lab/H2D/BambuStudio/IPCON PA6-CF&GF  @BBL H2D.json",
+      "compatibleModels": [
+        "Bambu Lab H2D"
+      ],
+      "updated": "2026-11-08",
+      "version": "2.8.0.6"
+    },
+    {
+      "id": "pa6-cf-pa-gf-bambu-lab-h2s-bambustudio-ipcon-pa6-cf-gf-bbl-h2s",
+      "name": "IPCON PA6-CF&GF @BBL H2S",
+      "material": "PA6-CF&PA-GF",
+      "brand": "Bambu Lab",
+      "model": "H2S",
+      "slicer": "BambuStudio",
+      "file": "IPCON PA6-CF&GF @BBL H2S.json",
+      "path": "preset/PA6-CF&PA-GF/Bambu Lab/H2S/BambuStudio/IPCON PA6-CF&GF @BBL H2S.json",
+      "compatibleModels": [
+        "Bambu Lab H2S"
+      ],
+      "updated": "2026-11-08",
+      "version": "2.8.0.6"
+    },
+    {
+      "id": "pa6-cf-pa-gf-bambu-lab-p2s-bambustudio-ipcon-pa6-cf-gf-bbl-p2s",
+      "name": "IPCON PA6-CF&GF @BBL P2S",
+      "material": "PA6-CF&PA-GF",
+      "brand": "Bambu Lab",
+      "model": "P2S",
+      "slicer": "BambuStudio",
+      "file": "IPCON PA6-CF&GF @BBL P2S.json",
+      "path": "preset/PA6-CF&PA-GF/Bambu Lab/P2S/BambuStudio/IPCON PA6-CF&GF @BBL P2S.json",
+      "compatibleModels": [
+        "Bambu Lab P2S"
+      ],
+      "updated": "2026-11-08",
+      "version": "2.8.0.6"
+    },
+    {
+      "id": "pa6-cf-pa-gf-bambu-lab-x1-carbon-bambustudio-ipcon-pa6-cf-gf-bbl-x1c",
+      "name": "IPCON PA6-CF&GF @BBL X1C",
+      "material": "PA6-CF&PA-GF",
+      "brand": "Bambu Lab",
+      "model": "X1 Carbon",
+      "slicer": "BambuStudio",
+      "file": "IPCON PA6-CF&GF @BBL X1C.json",
+      "path": "preset/PA6-CF&PA-GF/Bambu Lab/X1 Carbon/BambuStudio/IPCON PA6-CF&GF @BBL X1C.json",
+      "compatibleModels": [
+        "Bambu Lab X1 Carbon"
+      ],
+      "updated": "2026-11-08",
+      "version": "2.8.0.6"
+    },
+    {
+      "id": "pa6-cf-pa-gf-bambu-lab-x2d-bambustudio-ipcon-pa6-cf-gf-bbl-x2d",
+      "name": "IPCON PA6-CF&GF  @BBL X2D",
+      "material": "PA6-CF&PA-GF",
+      "brand": "Bambu Lab",
+      "model": "X2D",
+      "slicer": "BambuStudio",
+      "file": "IPCON PA6-CF&GF  @BBL X2D.json",
+      "path": "preset/PA6-CF&PA-GF/Bambu Lab/X2D/BambuStudio/IPCON PA6-CF&GF  @BBL X2D.json",
+      "compatibleModels": [
+        "Bambu Lab X2D"
+      ],
+      "updated": "2026-11-08",
+      "version": "2.8.0.6"
+    },
+    {
+      "id": "paht-cf-gf-bambu-lab-a1-bambustudio-ipcon-paht-cf-bbl-a1",
+      "name": "IPCON PAHT-CF @BBL A1",
+      "material": "PAHT-CF&GF",
+      "brand": "Bambu Lab",
+      "model": "A1",
+      "slicer": "BambuStudio",
+      "file": "IPCON PAHT-CF @BBL A1.json",
+      "path": "preset/PAHT-CF&GF/Bambu Lab/A1/BambuStudio/IPCON PAHT-CF @BBL A1.json",
+      "compatibleModels": [
+        "Bambu Lab A1"
+      ],
+      "updated": "2026-11-08",
+      "version": "2.8.0.6"
+    },
+    {
+      "id": "paht-cf-gf-bambu-lab-h2c-bambustudio-ipcon-paht-cf-bbl-h2c",
+      "name": "IPCON PAHT-CF @BBL H2C",
+      "material": "PAHT-CF&GF",
+      "brand": "Bambu Lab",
+      "model": "H2C",
+      "slicer": "BambuStudio",
+      "file": "IPCON PAHT-CF @BBL H2C.json",
+      "path": "preset/PAHT-CF&GF/Bambu Lab/H2C/BambuStudio/IPCON PAHT-CF @BBL H2C.json",
+      "compatibleModels": [
+        "Bambu Lab H2C"
+      ],
+      "updated": "2026-11-08",
+      "version": "2.8.0.6"
+    },
+    {
+      "id": "paht-cf-gf-bambu-lab-h2d-bambustudio-ipcon-paht-cf-bbl-h2d",
+      "name": "IPCON PAHT-CF @BBL H2D",
+      "material": "PAHT-CF&GF",
+      "brand": "Bambu Lab",
+      "model": "H2D",
+      "slicer": "BambuStudio",
+      "file": "IPCON PAHT-CF @BBL H2D.json",
+      "path": "preset/PAHT-CF&GF/Bambu Lab/H2D/BambuStudio/IPCON PAHT-CF @BBL H2D.json",
+      "compatibleModels": [
+        "Bambu Lab H2D"
+      ],
+      "updated": "2026-11-09",
+      "version": "2.9.0.75"
+    },
+    {
+      "id": "paht-cf-gf-bambu-lab-h2s-bambustudio-ipcon-paht-cf-bbl-h2s",
+      "name": "IPCON PAHT-CF @BBL H2S",
+      "material": "PAHT-CF&GF",
+      "brand": "Bambu Lab",
+      "model": "H2S",
+      "slicer": "BambuStudio",
+      "file": "IPCON PAHT-CF @BBL H2S.json",
+      "path": "preset/PAHT-CF&GF/Bambu Lab/H2S/BambuStudio/IPCON PAHT-CF @BBL H2S.json",
+      "compatibleModels": [
+        "Bambu Lab H2S"
+      ],
+      "updated": "2026-11-09",
+      "version": "2.9.0.75"
+    },
+    {
+      "id": "paht-cf-gf-bambu-lab-p2s-bambustudio-ipcon-paht-cf-bbl-p2s",
+      "name": "IPCON PAHT-CF @BBL P2S",
+      "material": "PAHT-CF&GF",
+      "brand": "Bambu Lab",
+      "model": "P2S",
+      "slicer": "BambuStudio",
+      "file": "IPCON PAHT-CF @BBL P2S.json",
+      "path": "preset/PAHT-CF&GF/Bambu Lab/P2S/BambuStudio/IPCON PAHT-CF @BBL P2S.json",
+      "compatibleModels": [
+        "Bambu Lab P2S"
+      ],
+      "updated": "2026-11-09",
+      "version": "2.9.0.75"
+    },
+    {
+      "id": "paht-cf-gf-bambu-lab-x1-carbon-bambustudio-ipcon-paht-cf-bbl-x1c",
+      "name": "IPCON PAHT-CF @BBL X1C",
+      "material": "PAHT-CF&GF",
+      "brand": "Bambu Lab",
+      "model": "X1 Carbon",
+      "slicer": "BambuStudio",
+      "file": "IPCON PAHT-CF @BBL X1C.json",
+      "path": "preset/PAHT-CF&GF/Bambu Lab/X1 Carbon/BambuStudio/IPCON PAHT-CF @BBL X1C.json",
+      "compatibleModels": [
+        "Bambu Lab X1 Carbon"
+      ],
+      "updated": "2026-11-09",
+      "version": "2.9.0.75"
+    },
+    {
+      "id": "paht-cf-gf-bambu-lab-x2d-bambustudio-ipcon-paht-cf-bbl-x2d",
+      "name": "IPCON PAHT-CF @BBL X2D",
+      "material": "PAHT-CF&GF",
+      "brand": "Bambu Lab",
+      "model": "X2D",
+      "slicer": "BambuStudio",
+      "file": "IPCON PAHT-CF @BBL X2D.json",
+      "path": "preset/PAHT-CF&GF/Bambu Lab/X2D/BambuStudio/IPCON PAHT-CF @BBL X2D.json",
+      "compatibleModels": [
+        "Bambu Lab X2D"
+      ],
+      "updated": "2026-11-09",
+      "version": "2.9.0.75"
+    },
+    {
+      "id": "pc-fr-hs-bambu-lab-a1-bambustudio-ipcon-pc-fr-hs-bbl-a1",
+      "name": "IPCON PC FR HS @BBL A1",
+      "material": "PC FR HS",
+      "brand": "Bambu Lab",
+      "model": "A1",
+      "slicer": "BambuStudio",
+      "file": "IPCON PC FR HS @BBL A1.json",
+      "path": "preset/PC FR HS/Bambu Lab/A1/BambuStudio/IPCON PC FR HS @BBL A1.json",
+      "compatibleModels": [
+        "Bambu Lab A1"
+      ],
+      "updated": "2026-11-09",
+      "version": "2.9.0.75"
+    },
+    {
+      "id": "pc-fr-hs-bambu-lab-h2c-bambustudio-ipcon-pc-fr-hs-bbl-h2c",
+      "name": "IPCON PC FR HS @BBL H2C",
+      "material": "PC FR HS",
+      "brand": "Bambu Lab",
+      "model": "H2C",
+      "slicer": "BambuStudio",
+      "file": "IPCON PC FR HS @BBL H2C.json",
+      "path": "preset/PC FR HS/Bambu Lab/H2C/BambuStudio/IPCON PC FR HS @BBL H2C.json",
+      "compatibleModels": [
+        "Bambu Lab H2C"
+      ],
+      "updated": "2026-11-09",
+      "version": "2.9.0.75"
+    },
+    {
+      "id": "pc-fr-hs-bambu-lab-h2d-bambustudio-ipcon-pc-fr-hs-bbl-h2d",
+      "name": "IPCON PC FR HS  @BBL H2D",
+      "material": "PC FR HS",
+      "brand": "Bambu Lab",
+      "model": "H2D",
+      "slicer": "BambuStudio",
+      "file": "IPCON PC FR HS  @BBL H2D.json",
+      "path": "preset/PC FR HS/Bambu Lab/H2D/BambuStudio/IPCON PC FR HS  @BBL H2D.json",
+      "compatibleModels": [
+        "Bambu Lab H2D"
+      ],
+      "updated": "2026-11-09",
+      "version": "2.9.0.75"
+    },
+    {
+      "id": "pc-fr-hs-bambu-lab-h2s-bambustudio-ipcon-pc-fr-hs-bbl-h2s",
+      "name": "IPCON PC FR HS  @BBL H2S",
+      "material": "PC FR HS",
+      "brand": "Bambu Lab",
+      "model": "H2S",
+      "slicer": "BambuStudio",
+      "file": "IPCON PC FR HS  @BBL H2S.json",
+      "path": "preset/PC FR HS/Bambu Lab/H2S/BambuStudio/IPCON PC FR HS  @BBL H2S.json",
+      "compatibleModels": [
+        "Bambu Lab H2S"
+      ],
+      "updated": "2026-11-09",
+      "version": "2.9.0.75"
+    },
+    {
+      "id": "pc-fr-hs-bambu-lab-p2s-bambustudio-ipcon-pc-fr-hs-bbl-p2s",
+      "name": "IPCON PC FR HS  @BBL P2S",
+      "material": "PC FR HS",
+      "brand": "Bambu Lab",
+      "model": "P2S",
+      "slicer": "BambuStudio",
+      "file": "IPCON PC FR HS  @BBL P2S.json",
+      "path": "preset/PC FR HS/Bambu Lab/P2S/BambuStudio/IPCON PC FR HS  @BBL P2S.json",
+      "compatibleModels": [
+        "Bambu Lab P2S"
+      ],
+      "updated": "2026-11-09",
+      "version": "2.9.0.75"
+    },
+    {
+      "id": "pc-fr-hs-bambu-lab-x1-carbon-bambustudio-ipcon-pc-fr-hs-bbl-x1c",
+      "name": "IPCON PC FR HS  @BBL X1C",
+      "material": "PC FR HS",
+      "brand": "Bambu Lab",
+      "model": "X1 Carbon",
+      "slicer": "BambuStudio",
+      "file": "IPCON PC FR HS  @BBL X1C.json",
+      "path": "preset/PC FR HS/Bambu Lab/X1 Carbon/BambuStudio/IPCON PC FR HS  @BBL X1C.json",
+      "compatibleModels": [
+        "Bambu Lab X1 Carbon"
+      ],
+      "updated": "2026-11-09",
+      "version": "2.9.0.75"
+    },
+    {
+      "id": "pc-fr-hs-bambu-lab-x2d-bambustudio-ipcon-pc-fr-hs-bbl-x2d",
+      "name": "IPCON PC FR HS  @BBL X2D",
+      "material": "PC FR HS",
+      "brand": "Bambu Lab",
+      "model": "X2D",
+      "slicer": "BambuStudio",
+      "file": "IPCON PC FR HS  @BBL X2D.json",
+      "path": "preset/PC FR HS/Bambu Lab/X2D/BambuStudio/IPCON PC FR HS  @BBL X2D.json",
+      "compatibleModels": [
+        "Bambu Lab X2D"
+      ],
+      "updated": "2026-11-09",
+      "version": "2.9.0.75"
+    },
+    {
+      "id": "pc-cf-bambu-lab-a1-bambustudio-ipcon-pc-cf-bbl-a1",
+      "name": "IPCON PC-CF @BBL A1",
+      "material": "PC-CF",
+      "brand": "Bambu Lab",
+      "model": "A1",
+      "slicer": "BambuStudio",
+      "file": "IPCON PC-CF @BBL A1.json",
+      "path": "preset/PC-CF/Bambu Lab/A1/BambuStudio/IPCON PC-CF @BBL A1.json",
+      "compatibleModels": [
+        "Bambu Lab A1"
+      ],
+      "updated": "2026-11-09",
+      "version": "2.9.0.75"
+    },
+    {
+      "id": "pc-cf-bambu-lab-h2c-bambustudio-ipcon-pc-cf-bbl-h2c",
+      "name": "IPCON PC-CF @BBL H2C",
+      "material": "PC-CF",
+      "brand": "Bambu Lab",
+      "model": "H2C",
+      "slicer": "BambuStudio",
+      "file": "IPCON PC-CF @BBL H2C.json",
+      "path": "preset/PC-CF/Bambu Lab/H2C/BambuStudio/IPCON PC-CF @BBL H2C.json",
+      "compatibleModels": [
+        "Bambu Lab H2C"
+      ],
+      "updated": "2026-11-09",
+      "version": "2.9.0.75"
+    },
+    {
+      "id": "pc-cf-bambu-lab-h2d-bambustudio-ipcon-pc-cf-bbl-h2d",
+      "name": "IPCON PC-CF @BBL H2D",
+      "material": "PC-CF",
+      "brand": "Bambu Lab",
+      "model": "H2D",
+      "slicer": "BambuStudio",
+      "file": "IPCON PC-CF @BBL H2D.json",
+      "path": "preset/PC-CF/Bambu Lab/H2D/BambuStudio/IPCON PC-CF @BBL H2D.json",
+      "compatibleModels": [
+        "Bambu Lab H2D"
+      ],
+      "updated": "2026-11-09",
+      "version": "2.9.0.75"
+    },
+    {
+      "id": "pc-cf-bambu-lab-h2s-bambustudio-ipcon-pc-cf-bbl-h2s",
+      "name": "IPCON PC-CF @BBL H2S",
+      "material": "PC-CF",
+      "brand": "Bambu Lab",
+      "model": "H2S",
+      "slicer": "BambuStudio",
+      "file": "IPCON PC-CF @BBL H2S.json",
+      "path": "preset/PC-CF/Bambu Lab/H2S/BambuStudio/IPCON PC-CF @BBL H2S.json",
+      "compatibleModels": [
+        "Bambu Lab H2S"
+      ],
+      "updated": "2026-11-09",
+      "version": "2.9.0.75"
+    },
+    {
+      "id": "pc-cf-bambu-lab-p2s-bambustudio-ipcon-pc-cf-bbl-p2s",
+      "name": "IPCON PC-CF @BBL P2S",
+      "material": "PC-CF",
+      "brand": "Bambu Lab",
+      "model": "P2S",
+      "slicer": "BambuStudio",
+      "file": "IPCON PC-CF @BBL P2S.json",
+      "path": "preset/PC-CF/Bambu Lab/P2S/BambuStudio/IPCON PC-CF @BBL P2S.json",
+      "compatibleModels": [
+        "Bambu Lab P2S"
+      ],
+      "updated": "2026-11-09",
+      "version": "2.9.0.75"
+    },
+    {
+      "id": "pc-cf-bambu-lab-x1-carbon-bambustudio-ipcon-pc-cf-bbl-x1c",
+      "name": "IPCON PC-CF @BBL X1C",
+      "material": "PC-CF",
+      "brand": "Bambu Lab",
+      "model": "X1 Carbon",
+      "slicer": "BambuStudio",
+      "file": "IPCON PC-CF @BBL X1C.json",
+      "path": "preset/PC-CF/Bambu Lab/X1 Carbon/BambuStudio/IPCON PC-CF @BBL X1C.json",
+      "compatibleModels": [
+        "Bambu Lab X1 Carbon"
+      ],
+      "updated": "2026-11-09",
+      "version": "2.9.0.75"
+    },
+    {
+      "id": "pc-cf-bambu-lab-x2d-bambustudio-ipcon-pc-cf-bbl-x2d",
+      "name": "IPCON PC-CF @BBL X2D",
+      "material": "PC-CF",
+      "brand": "Bambu Lab",
+      "model": "X2D",
+      "slicer": "BambuStudio",
+      "file": "IPCON PC-CF @BBL X2D.json",
+      "path": "preset/PC-CF/Bambu Lab/X2D/BambuStudio/IPCON PC-CF @BBL X2D.json",
+      "compatibleModels": [
+        "Bambu Lab X2D"
+      ],
+      "updated": "2026-11-09",
+      "version": "2.9.0.75"
+    },
+    {
+      "id": "pc-gf-bambu-lab-a1-bambustudio-ipcon-pc-gf-bbl-a1",
+      "name": "IPCON PC-GF @BBL A1",
+      "material": "PC-GF",
+      "brand": "Bambu Lab",
+      "model": "A1",
+      "slicer": "BambuStudio",
+      "file": "IPCON PC-GF @BBL A1.json",
+      "path": "preset/PC-GF/Bambu Lab/A1/BambuStudio/IPCON PC-GF @BBL A1.json",
+      "compatibleModels": [
+        "Bambu Lab A1"
+      ],
+      "updated": "2026-11-09",
+      "version": "2.9.0.75"
+    },
+    {
+      "id": "pc-gf-bambu-lab-h2c-bambustudio-ipcon-pc-gf-bbl-h2c",
+      "name": "IPCON PC-GF @BBL H2C",
+      "material": "PC-GF",
+      "brand": "Bambu Lab",
+      "model": "H2C",
+      "slicer": "BambuStudio",
+      "file": "IPCON PC-GF @BBL H2C.json",
+      "path": "preset/PC-GF/Bambu Lab/H2C/BambuStudio/IPCON PC-GF @BBL H2C.json",
+      "compatibleModels": [
+        "Bambu Lab H2C"
+      ],
+      "updated": "2026-11-09",
+      "version": "2.9.0.75"
+    },
+    {
+      "id": "pc-gf-bambu-lab-h2d-bambustudio-ipcon-pc-gf-bbl-h2d",
+      "name": "IPCON PC-GF @BBL H2D",
+      "material": "PC-GF",
+      "brand": "Bambu Lab",
+      "model": "H2D",
+      "slicer": "BambuStudio",
+      "file": "IPCON PC-GF @BBL H2D.json",
+      "path": "preset/PC-GF/Bambu Lab/H2D/BambuStudio/IPCON PC-GF @BBL H2D.json",
+      "compatibleModels": [
+        "Bambu Lab H2D"
+      ],
+      "updated": "2026-11-09",
+      "version": "2.9.0.75"
+    },
+    {
+      "id": "pc-gf-bambu-lab-h2s-bambustudio-ipcon-pc-gf-bbl-h2s",
+      "name": "IPCON PC-GF  @BBL H2S",
+      "material": "PC-GF",
+      "brand": "Bambu Lab",
+      "model": "H2S",
+      "slicer": "BambuStudio",
+      "file": "IPCON PC-GF  @BBL H2S.json",
+      "path": "preset/PC-GF/Bambu Lab/H2S/BambuStudio/IPCON PC-GF  @BBL H2S.json",
+      "compatibleModels": [
+        "Bambu Lab H2S"
+      ],
+      "updated": "2026-11-09",
+      "version": "2.9.0.75"
+    },
+    {
+      "id": "pc-gf-bambu-lab-p2s-bambustudio-ipcon-pc-gf-bbl-p2s",
+      "name": "IPCON PC-GF @BBL P2S",
+      "material": "PC-GF",
+      "brand": "Bambu Lab",
+      "model": "P2S",
+      "slicer": "BambuStudio",
+      "file": "IPCON PC-GF @BBL P2S.json",
+      "path": "preset/PC-GF/Bambu Lab/P2S/BambuStudio/IPCON PC-GF @BBL P2S.json",
+      "compatibleModels": [
+        "Bambu Lab P2S"
+      ],
+      "updated": "2026-11-09",
+      "version": "2.9.0.75"
+    },
+    {
+      "id": "pc-gf-bambu-lab-x1-carbon-bambustudio-ipcon-pc-gf-bbl-x1c",
+      "name": "IPCON PC-GF @BBL X1C",
+      "material": "PC-GF",
+      "brand": "Bambu Lab",
+      "model": "X1 Carbon",
+      "slicer": "BambuStudio",
+      "file": "IPCON PC-GF @BBL X1C.json",
+      "path": "preset/PC-GF/Bambu Lab/X1 Carbon/BambuStudio/IPCON PC-GF @BBL X1C.json",
+      "compatibleModels": [
+        "Bambu Lab X1 Carbon"
+      ],
+      "updated": "2026-11-09",
+      "version": "2.9.0.75"
+    },
+    {
+      "id": "pc-gf-bambu-lab-x2d-bambustudio-ipcon-pc-gf-bbl-x2d",
+      "name": "IPCON PC-GF @BBL X2D",
+      "material": "PC-GF",
+      "brand": "Bambu Lab",
+      "model": "X2D",
+      "slicer": "BambuStudio",
+      "file": "IPCON PC-GF @BBL X2D.json",
+      "path": "preset/PC-GF/Bambu Lab/X2D/BambuStudio/IPCON PC-GF @BBL X2D.json",
+      "compatibleModels": [
+        "Bambu Lab X2D"
+      ],
+      "updated": "2026-11-09",
+      "version": "2.9.0.75"
+    },
+    {
+      "id": "pet-cf-bambu-lab-a1-bambustudio-ipcon-pet-cf-bbl-a1",
+      "name": "IPCON PET-CF @BBL A1",
+      "material": "PET-CF",
+      "brand": "Bambu Lab",
+      "model": "A1",
+      "slicer": "BambuStudio",
+      "file": "IPCON PET-CF @BBL A1.json",
+      "path": "preset/PET-CF/Bambu Lab/A1/BambuStudio/IPCON PET-CF @BBL A1.json",
+      "compatibleModels": [
+        "Bambu Lab A1"
+      ],
+      "updated": "2026-11-09",
+      "version": "2.9.0.75"
+    },
+    {
+      "id": "pet-cf-bambu-lab-h2c-bambustudio-ipcon-pet-cf-bbl-h2c",
+      "name": "IPCON PET-CF @BBL H2C",
+      "material": "PET-CF",
+      "brand": "Bambu Lab",
+      "model": "H2C",
+      "slicer": "BambuStudio",
+      "file": "IPCON PET-CF @BBL H2C.json",
+      "path": "preset/PET-CF/Bambu Lab/H2C/BambuStudio/IPCON PET-CF @BBL H2C.json",
+      "compatibleModels": [
+        "Bambu Lab H2C"
+      ],
+      "updated": "2026-11-09",
+      "version": "2.9.0.75"
+    },
+    {
+      "id": "pet-cf-bambu-lab-h2d-bambustudio-ipcon-pet-cf-bbl-h2d",
+      "name": "IPCON PET-CF @BBL H2D",
+      "material": "PET-CF",
+      "brand": "Bambu Lab",
+      "model": "H2D",
+      "slicer": "BambuStudio",
+      "file": "IPCON PET-CF @BBL H2D.json",
+      "path": "preset/PET-CF/Bambu Lab/H2D/BambuStudio/IPCON PET-CF @BBL H2D.json",
+      "compatibleModels": [
+        "Bambu Lab H2D"
+      ],
+      "updated": "2026-11-09",
+      "version": "2.9.0.75"
+    },
+    {
+      "id": "pet-cf-bambu-lab-h2s-bambustudio-ipcon-pet-cf-bbl-h2s",
+      "name": "IPCON PET-CF @BBL H2S",
+      "material": "PET-CF",
+      "brand": "Bambu Lab",
+      "model": "H2S",
+      "slicer": "BambuStudio",
+      "file": "IPCON PET-CF @BBL H2S.json",
+      "path": "preset/PET-CF/Bambu Lab/H2S/BambuStudio/IPCON PET-CF @BBL H2S.json",
+      "compatibleModels": [
+        "Bambu Lab H2S"
+      ],
+      "updated": "2026-11-09",
+      "version": "2.9.0.75"
+    },
+    {
+      "id": "pet-cf-bambu-lab-p2s-bambustudio-ipcon-pet-cf-bbl-p2s",
+      "name": "IPCON PET-CF @BBL P2S",
+      "material": "PET-CF",
+      "brand": "Bambu Lab",
+      "model": "P2S",
+      "slicer": "BambuStudio",
+      "file": "IPCON PET-CF @BBL P2S.json",
+      "path": "preset/PET-CF/Bambu Lab/P2S/BambuStudio/IPCON PET-CF @BBL P2S.json",
+      "compatibleModels": [
+        "Bambu Lab P2S"
+      ],
+      "updated": "2026-11-09",
+      "version": "2.9.0.75"
+    },
+    {
+      "id": "pet-cf-bambu-lab-x1-carbon-bambustudio-ipcon-pet-cf-bbl-x1c",
+      "name": "IPCON PET-CF @BBL X1C",
+      "material": "PET-CF",
+      "brand": "Bambu Lab",
+      "model": "X1 Carbon",
+      "slicer": "BambuStudio",
+      "file": "IPCON PET-CF @BBL X1C.json",
+      "path": "preset/PET-CF/Bambu Lab/X1 Carbon/BambuStudio/IPCON PET-CF @BBL X1C.json",
+      "compatibleModels": [
+        "Bambu Lab X1 Carbon"
+      ],
+      "updated": "2026-11-09",
+      "version": "2.9.0.75"
+    },
+    {
+      "id": "pet-cf-bambu-lab-x2d-bambustudio-ipcon-pet-cf-bbl-x2d",
+      "name": "IPCON PET-CF @BBL X2D",
+      "material": "PET-CF",
+      "brand": "Bambu Lab",
+      "model": "X2D",
+      "slicer": "BambuStudio",
+      "file": "IPCON PET-CF @BBL X2D.json",
+      "path": "preset/PET-CF/Bambu Lab/X2D/BambuStudio/IPCON PET-CF @BBL X2D.json",
+      "compatibleModels": [
+        "Bambu Lab X2D"
+      ],
+      "updated": "2026-11-09",
+      "version": "2.9.0.75"
     },
     {
       "id": "pla-bambu-lab-x1-carbon-bambustudio-ipcon-pla-generic",

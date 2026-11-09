@@ -1,0 +1,47 @@
+{
+    "fan_cooling_layer_time": [
+        "5"
+    ],
+    "fan_max_speed": [
+        "35"
+    ],
+    "filament_extruder_variant": [
+        "Direct Drive Standard",
+        "Direct Drive High Flow",
+        "Direct Drive E3D High Flow"
+    ],
+    "filament_max_volumetric_speed": [
+        "12",
+        "29",
+        "20"
+    ],
+    "filament_settings_id": [
+        "IPCON PC-GF @BBL H2C"
+    ],
+    "from": "User",
+    "inherits": "Bambu PC @BBL H2C",
+    "name": "IPCON PC-GF @BBL H2C",
+    "nozzle_temperature": [
+        "285",
+        "nil",
+        "nil"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "285",
+        "nil",
+        "nil"
+    ],
+    "overhang_fan_speed": [
+        "40"
+    ],
+    "overhang_fan_threshold": [
+        "10%"
+    ],
+    "slow_down_layer_time": [
+        "2"
+    ],
+    "temperature_vitrification": [
+        "110"
+    ],
+    "version": "2.9.0.75"
+}

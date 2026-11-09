@@ -1,0 +1,50 @@
+{
+    "fan_cooling_layer_time": [
+        "20"
+    ],
+    "fan_max_speed": [
+        "40"
+    ],
+    "fan_min_speed": [
+        "10"
+    ],
+    "filament_extruder_variant": [
+        "Direct Drive Standard",
+        "Direct Drive High Flow",
+        "Direct Drive E3D High Flow"
+    ],
+    "filament_flow_ratio": [
+        "0.98",
+        "nil",
+        "nil"
+    ],
+    "filament_settings_id": [
+        "CoPA HS @BBL H2S"
+    ],
+    "from": "User",
+    "inherits": "Generic PA @BBL H2S 0.4 nozzle",
+    "name": "CoPA HS @BBL H2S",
+    "nozzle_temperature": [
+        "290",
+        "nil",
+        "nil"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "290",
+        "nil",
+        "nil"
+    ],
+    "nozzle_temperature_range_high": [
+        "300"
+    ],
+    "nozzle_temperature_range_low": [
+        "270"
+    ],
+    "overhang_fan_speed": [
+        "40"
+    ],
+    "slow_down_layer_time": [
+        "6"
+    ],
+    "version": "2.8.0.6"
+}

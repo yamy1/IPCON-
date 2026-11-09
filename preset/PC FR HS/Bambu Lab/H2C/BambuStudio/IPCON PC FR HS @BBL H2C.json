@@ -1,0 +1,63 @@
+{
+    "chamber_temperatures": [
+        "0"
+    ],
+    "eng_plate_temp": [
+        "90"
+    ],
+    "eng_plate_temp_initial_layer": [
+        "90"
+    ],
+    "fan_max_speed": [
+        "35"
+    ],
+    "filament_extruder_variant": [
+        "Direct Drive Standard",
+        "Direct Drive High Flow",
+        "Direct Drive E3D High Flow"
+    ],
+    "filament_settings_id": [
+        "IPCON PC FR HS @BBL H2C"
+    ],
+    "from": "User",
+    "hot_plate_temp": [
+        "90"
+    ],
+    "hot_plate_temp_initial_layer": [
+        "90"
+    ],
+    "inherits": "Bambu PC FR @BBL H2C 0.4 nozzle",
+    "name": "IPCON PC FR HS @BBL H2C",
+    "nozzle_temperature": [
+        "255",
+        "nil",
+        "nil"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "265",
+        "nil",
+        "nil"
+    ],
+    "nozzle_temperature_range_high": [
+        "270"
+    ],
+    "nozzle_temperature_range_low": [
+        "245"
+    ],
+    "overhang_fan_speed": [
+        "40"
+    ],
+    "overhang_fan_threshold": [
+        "10%"
+    ],
+    "slow_down_layer_time": [
+        "6"
+    ],
+    "textured_plate_temp": [
+        "90"
+    ],
+    "textured_plate_temp_initial_layer": [
+        "90"
+    ],
+    "version": "2.9.0.75"
+}

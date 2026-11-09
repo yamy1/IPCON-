@@ -1,0 +1,31 @@
+{
+    "chamber_temperatures": [
+        "0"
+    ],
+    "fan_max_speed": [
+        "35"
+    ],
+    "filament_extruder_variant": [
+        "Direct Drive Standard",
+        "Direct Drive High Flow",
+        "Direct Drive E3D High Flow"
+    ],
+    "filament_max_volumetric_speed": [
+        "12",
+        "12",
+        "nil"
+    ],
+    "filament_settings_id": [
+        "IPCON PAHT-CF @BBL H2S"
+    ],
+    "from": "User",
+    "inherits": "Bambu PAHT-CF @BBL H2S",
+    "name": "IPCON PAHT-CF @BBL H2S",
+    "nozzle_temperature_range_low": [
+        "270"
+    ],
+    "overhang_fan_threshold": [
+        "10%"
+    ],
+    "version": "2.9.0.75"
+}

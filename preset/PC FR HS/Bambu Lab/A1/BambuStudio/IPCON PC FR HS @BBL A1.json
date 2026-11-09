@@ -1,0 +1,27 @@
+{
+    "filament_extruder_variant": [
+        "Direct Drive Standard"
+    ],
+    "filament_settings_id": [
+        "IPCON PC FR HS @BBL A1"
+    ],
+    "from": "User",
+    "inherits": "Bambu PC FR @BBL A1",
+    "name": "IPCON PC FR HS @BBL A1",
+    "nozzle_temperature": [
+        "255"
+    ],
+    "nozzle_temperature_range_high": [
+        "270"
+    ],
+    "nozzle_temperature_range_low": [
+        "245"
+    ],
+    "overhang_fan_speed": [
+        "30"
+    ],
+    "slow_down_layer_time": [
+        "6"
+    ],
+    "version": "2.9.0.75"
+}
