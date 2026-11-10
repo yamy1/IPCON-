@@ -1,8 +1,9 @@
 {
-  "generatedAt": "2026-11-10T01:18:39.608Z",
+  "generatedAt": "2026-11-10T01:26:42.992Z",
   "materials": [
     "ABS",
-    "ASA-CF&GF",
+    "ASA-CF",
+    "ASA-GF",
     "CoPA HS",
     "PA6-CF&PA-GF",
     "PAHT-CF&GF",
@@ -55,59 +56,164 @@
   ],
   "presets": [
     {
-      "id": "asa-cf-gf-bambu-lab-a1-bambustudio-ipcon-abs-gf-bbl-a1",
-      "name": "IPCON ABS-GF @BBL A1",
-      "material": "ASA-CF&GF",
+      "id": "asa-cf-bambu-lab-a1-bambustudio-ipcon-asa-cf-bbl-a1",
+      "name": "IPCON ASA-CF @BBL A1",
+      "material": "ASA-CF",
       "brand": "Bambu Lab",
       "model": "A1",
       "slicer": "BambuStudio",
-      "file": "IPCON ABS-GF @BBL A1.json",
-      "path": "preset/ASA-CF&GF/Bambu Lab/A1/BambuStudio/IPCON ABS-GF @BBL A1.json",
+      "file": "IPCON ASA-CF @BBL A1.json",
+      "path": "preset/ASA-CF/Bambu Lab/A1/BambuStudio/IPCON ASA-CF @BBL A1.json",
       "compatibleModels": [
         "Bambu Lab A1"
       ],
-      "updated": "2026-11-08",
+      "updated": "2026-11-10",
       "version": "2.8.0.6"
     },
     {
-      "id": "asa-cf-gf-bambu-lab-h2c-bambustudio-ipcon-abs-gf-bbl-h2c-0-4-nozzle",
-      "name": "IPCON ABS-GF @BBL H2C 0.4 nozzle",
-      "material": "ASA-CF&GF",
+      "id": "asa-cf-bambu-lab-h2c-bambustudio-ipcon-asa-cf-bbl-h2c-0-4-nozzle",
+      "name": "IPCON ASA-CF @BBL H2C 0.4 nozzle",
+      "material": "ASA-CF",
       "brand": "Bambu Lab",
       "model": "H2C",
       "slicer": "BambuStudio",
-      "file": "IPCON ABS-GF @BBL H2C 0.4 nozzle.json",
-      "path": "preset/ASA-CF&GF/Bambu Lab/H2C/BambuStudio/IPCON ABS-GF @BBL H2C 0.4 nozzle.json",
+      "file": "IPCON ASA-CF @BBL H2C 0.4 nozzle.json",
+      "path": "preset/ASA-CF/Bambu Lab/H2C/BambuStudio/IPCON ASA-CF @BBL H2C 0.4 nozzle.json",
       "compatibleModels": [
         "Bambu Lab H2C"
       ],
-      "updated": "2026-11-08",
+      "updated": "2026-11-10",
       "version": "2.8.0.6"
     },
     {
-      "id": "asa-cf-gf-bambu-lab-h2d-bambustudio-ipcon-abs-gf-bbl-h2d",
-      "name": "IPCON ABS-GF @BBL H2D",
-      "material": "ASA-CF&GF",
+      "id": "asa-cf-bambu-lab-h2d-bambustudio-ipcon-asa-cf-bbl-h2d",
+      "name": "IPCON ASA-CF @BBL H2D",
+      "material": "ASA-CF",
       "brand": "Bambu Lab",
       "model": "H2D",
       "slicer": "BambuStudio",
-      "file": "IPCON ABS-GF @BBL H2D.json",
-      "path": "preset/ASA-CF&GF/Bambu Lab/H2D/BambuStudio/IPCON ABS-GF @BBL H2D.json",
+      "file": "IPCON ASA-CF @BBL H2D.json",
+      "path": "preset/ASA-CF/Bambu Lab/H2D/BambuStudio/IPCON ASA-CF @BBL H2D.json",
       "compatibleModels": [
         "Bambu Lab H2D"
       ],
-      "updated": "2026-11-08",
+      "updated": "2026-11-10",
       "version": "2.8.0.6"
     },
     {
-      "id": "asa-cf-gf-bambu-lab-h2s-bambustudio-ipcon-abs-gf-bbl-h2s",
+      "id": "asa-cf-bambu-lab-h2s-bambustudio-ipcon-asa-cf-bbl-h2s",
       "name": "IPCON ABS-GF @BBL H2S",
-      "material": "ASA-CF&GF",
+      "material": "ASA-CF",
       "brand": "Bambu Lab",
       "model": "H2S",
       "slicer": "BambuStudio",
-      "file": "IPCON ABS-GF @BBL H2S.json",
-      "path": "preset/ASA-CF&GF/Bambu Lab/H2S/BambuStudio/IPCON ABS-GF @BBL H2S.json",
+      "file": "IPCON ASA-CF @BBL H2S.json",
+      "path": "preset/ASA-CF/Bambu Lab/H2S/BambuStudio/IPCON ASA-CF @BBL H2S.json",
+      "compatibleModels": [
+        "Bambu Lab H2S"
+      ],
+      "updated": "2026-11-10",
+      "version": "2.8.0.6"
+    },
+    {
+      "id": "asa-cf-bambu-lab-p1s-bambustudio-ipcon-asa-cf-bbl-p1s",
+      "name": "IPCON ASA-CF @BBL P1S",
+      "material": "ASA-CF",
+      "brand": "Bambu Lab",
+      "model": "P1S",
+      "slicer": "BambuStudio",
+      "file": "IPCON ASA-CF @BBL P1S.json",
+      "path": "preset/ASA-CF/Bambu Lab/P1S/BambuStudio/IPCON ASA-CF @BBL P1S.json",
+      "compatibleModels": [
+        "Bambu Lab P1S"
+      ],
+      "updated": "2026-11-10",
+      "version": "2.8.0.6"
+    },
+    {
+      "id": "asa-cf-bambu-lab-p2s-bambustudio-ipcon-asa-cf-bbl-p2s",
+      "name": "IPCON ABS-GF @BBL P2S",
+      "material": "ASA-CF",
+      "brand": "Bambu Lab",
+      "model": "P2S",
+      "slicer": "BambuStudio",
+      "file": "IPCON ASA-CF @BBL P2S.json",
+      "path": "preset/ASA-CF/Bambu Lab/P2S/BambuStudio/IPCON ASA-CF @BBL P2S.json",
+      "compatibleModels": [
+        "Bambu Lab P2S"
+      ],
+      "updated": "2026-11-10",
+      "version": "2.8.0.6"
+    },
+    {
+      "id": "asa-cf-bambu-lab-x1-carbon-bambustudio-ipcon-asa-cf-bbl-x1c",
+      "name": "IPCON ASA-CF @BBL X1C",
+      "material": "ASA-CF",
+      "brand": "Bambu Lab",
+      "model": "X1 Carbon",
+      "slicer": "BambuStudio",
+      "file": "IPCON ASA-CF @BBL X1C.json",
+      "path": "preset/ASA-CF/Bambu Lab/X1 Carbon/BambuStudio/IPCON ASA-CF @BBL X1C.json",
+      "compatibleModels": [
+        "Bambu Lab X1 Carbon"
+      ],
+      "updated": "2026-11-10",
+      "version": "2.8.0.6"
+    },
+    {
+      "id": "asa-gf-bambu-lab-a1-bambustudio-ipcon-asa-gf-bbl-a1",
+      "name": "IPCON ASA-GF @BBL A1",
+      "material": "ASA-GF",
+      "brand": "Bambu Lab",
+      "model": "A1",
+      "slicer": "BambuStudio",
+      "file": "IPCON ASA-GF @BBL A1.json",
+      "path": "preset/ASA-GF/Bambu Lab/A1/BambuStudio/IPCON ASA-GF @BBL A1.json",
+      "compatibleModels": [
+        "Bambu Lab A1"
+      ],
+      "updated": "2026-11-10",
+      "version": "2.8.0.6"
+    },
+    {
+      "id": "asa-gf-bambu-lab-h2c-bambustudio-ipcon-asa-gf-bbl-h2c-0-4-nozzle",
+      "name": "IPCON ASA-GF @BBL H2C 0.4 nozzle",
+      "material": "ASA-GF",
+      "brand": "Bambu Lab",
+      "model": "H2C",
+      "slicer": "BambuStudio",
+      "file": "IPCON ASA-GF @BBL H2C 0.4 nozzle.json",
+      "path": "preset/ASA-GF/Bambu Lab/H2C/BambuStudio/IPCON ASA-GF @BBL H2C 0.4 nozzle.json",
+      "compatibleModels": [
+        "Bambu Lab H2C"
+      ],
+      "updated": "2026-11-10",
+      "version": "2.8.0.6"
+    },
+    {
+      "id": "asa-gf-bambu-lab-h2d-bambustudio-ipcon-asa-gf-bbl-h2d",
+      "name": "IPCON ASA-GF @BBL H2D",
+      "material": "ASA-GF",
+      "brand": "Bambu Lab",
+      "model": "H2D",
+      "slicer": "BambuStudio",
+      "file": "IPCON ASA-GF @BBL H2D.json",
+      "path": "preset/ASA-GF/Bambu Lab/H2D/BambuStudio/IPCON ASA-GF @BBL H2D.json",
+      "compatibleModels": [
+        "Bambu Lab H2D"
+      ],
+      "updated": "2026-11-10",
+      "version": "2.8.0.6"
+    },
+    {
+      "id": "asa-gf-bambu-lab-h2s-bambustudio-ipcon-asa-gf-bbl-h2s",
+      "name": "IPCON ABS-GF @BBL H2S",
+      "material": "ASA-GF",
+      "brand": "Bambu Lab",
+      "model": "H2S",
+      "slicer": "BambuStudio",
+      "file": "IPCON ASA-GF @BBL H2S.json",
+      "path": "preset/ASA-GF/Bambu Lab/H2S/BambuStudio/IPCON ASA-GF @BBL H2S.json",
       "compatibleModels": [
         "Bambu Lab H2S"
       ],
@@ -115,29 +221,29 @@
       "version": "2.8.0.6"
     },
     {
-      "id": "asa-cf-gf-bambu-lab-p1s-bambustudio-ipcon-abs-gf-bbl-p1s",
-      "name": "IPCON ABS-GF @BBL P1S",
-      "material": "ASA-CF&GF",
+      "id": "asa-gf-bambu-lab-p1s-bambustudio-ipcon-asa-gf-bbl-p1s",
+      "name": "IPCON ASA-GF @BBL P1S",
+      "material": "ASA-GF",
       "brand": "Bambu Lab",
       "model": "P1S",
       "slicer": "BambuStudio",
-      "file": "IPCON ABS-GF @BBL P1S.json",
-      "path": "preset/ASA-CF&GF/Bambu Lab/P1S/BambuStudio/IPCON ABS-GF @BBL P1S.json",
+      "file": "IPCON ASA-GF @BBL P1S.json",
+      "path": "preset/ASA-GF/Bambu Lab/P1S/BambuStudio/IPCON ASA-GF @BBL P1S.json",
       "compatibleModels": [
         "Bambu Lab P1S"
       ],
-      "updated": "2026-11-09",
+      "updated": "2026-11-10",
       "version": "2.8.0.6"
     },
     {
-      "id": "asa-cf-gf-bambu-lab-p2s-bambustudio-ipcon-abs-gf-bbl-p2s",
+      "id": "asa-gf-bambu-lab-p2s-bambustudio-ipcon-asa-gf-bbl-p2s",
       "name": "IPCON ABS-GF @BBL P2S",
-      "material": "ASA-CF&GF",
+      "material": "ASA-GF",
       "brand": "Bambu Lab",
       "model": "P2S",
       "slicer": "BambuStudio",
-      "file": "IPCON ABS-GF @BBL P2S.json",
-      "path": "preset/ASA-CF&GF/Bambu Lab/P2S/BambuStudio/IPCON ABS-GF @BBL P2S.json",
+      "file": "IPCON ASA-GF @BBL P2S.json",
+      "path": "preset/ASA-GF/Bambu Lab/P2S/BambuStudio/IPCON ASA-GF @BBL P2S.json",
       "compatibleModels": [
         "Bambu Lab P2S"
       ],
@@ -145,18 +251,18 @@
       "version": "2.8.0.6"
     },
     {
-      "id": "asa-cf-gf-bambu-lab-x1-carbon-bambustudio-ipcon-abs-gf-bbl-x1c",
-      "name": "IPCON ABS-GF @BBL X1C",
-      "material": "ASA-CF&GF",
+      "id": "asa-gf-bambu-lab-x1-carbon-bambustudio-ipcon-asa-gf-bbl-x1c",
+      "name": "IPCON ASA-GF @BBL X1C",
+      "material": "ASA-GF",
       "brand": "Bambu Lab",
       "model": "X1 Carbon",
       "slicer": "BambuStudio",
-      "file": "IPCON ABS-GF @BBL X1C.json",
-      "path": "preset/ASA-CF&GF/Bambu Lab/X1 Carbon/BambuStudio/IPCON ABS-GF @BBL X1C.json",
+      "file": "IPCON ASA-GF @BBL X1C.json",
+      "path": "preset/ASA-GF/Bambu Lab/X1 Carbon/BambuStudio/IPCON ASA-GF @BBL X1C.json",
       "compatibleModels": [
         "Bambu Lab X1 Carbon"
       ],
-      "updated": "2026-11-08",
+      "updated": "2026-11-10",
       "version": "2.8.0.6"
     },
     {
