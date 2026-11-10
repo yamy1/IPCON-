@@ -1,126 +1,101 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="zh-CN" data-theme="light">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="description" content="IPCON 艾普创耗材 — 3D 打印线材切片预设下载" />
   <title>IPCON 艾普创 · 切片预设</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
   <link rel="icon" href="assets/favicon.png" type="image/png" />
 </head>
 <body>
-  <div class="bg-atmosphere" aria-hidden="true">
-    <div class="bg-glow bg-glow--blue"></div>
-    <div class="bg-glow bg-glow--orange"></div>
-    <svg class="bg-hex-field" viewBox="0 0 1200 800" preserveAspectRatio="xMidYMid slice">
-      <defs>
-        <pattern id="hexPattern" width="56" height="48.5" patternUnits="userSpaceOnUse" patternTransform="scale(1.4)">
-          <path d="M28 2 L48 13.5 L48 36.5 L28 48 L8 36.5 L8 13.5 Z" fill="none" stroke="rgba(0,69,142,0.14)" stroke-width="1"/>
-        </pattern>
-      </defs>
-      <rect width="1200" height="800" fill="url(#hexPattern)"/>
-    </svg>
-  </div>
+  <div class="topbar" aria-hidden="true"></div>
 
-  <header class="site-header">
-    <a class="brand" href="#top" aria-label="IPCON 艾普创">
-      <!-- Official logo slot: assets/logo.png (from brand sheet) -->
-      <span class="brand__logo-slot">
-        <img src="assets/logo.png" alt="ipcon 艾普创" width="190" height="69" />
-      </span>
-      <span class="brand__tag" data-i18n="brandTag">耗材预设</span>
-    </a>
-    <nav class="header-actions" aria-label="Actions">
-      <a
-        class="guide-link"
-        href="https://alchemicronin.github.io/ipcon-filament-guide-pages/"
-        target="_blank"
-        rel="noopener noreferrer"
-        data-i18n-title="guideLinkTitle"
-        title="推荐选配耗材"
-      >
-        <span class="guide-link__label" data-i18n="guideLink">推荐选配</span>
-        <svg class="guide-link__icon" width="14" height="14" viewBox="0 0 16 16" aria-hidden="true" fill="none">
-          <path d="M6 3H3.5A1.5 1.5 0 0 0 2 4.5v8A1.5 1.5 0 0 0 3.5 14h8a1.5 1.5 0 0 0 1.5-1.5V10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
-          <path d="M9 2h5v5M14 2 8 8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-        </svg>
-      </a>
-      <button type="button" class="lang-toggle" id="langToggle" aria-label="Language">
-        <span class="lang-toggle__active" data-lang-label>中文</span>
-        <span class="lang-toggle__sep" aria-hidden="true">/</span>
-        <span class="lang-toggle__idle">EN</span>
+  <header class="hdr">
+    <div class="ef-controls ef-controls--top">
+      <button type="button" class="ef-cut ef-cut-sm" id="langToggle" aria-label="Language">
+        <span data-lang-label>中文</span>
+        <span class="lang-sep" aria-hidden="true">/</span>
+        <span class="lang-idle">EN</span>
       </button>
-    </nav>
+      <button type="button" class="ef-cut ef-theme" id="themeToggle" aria-label="Toggle theme">
+        <span class="ef-glyph" id="themeGlyph" data-dark="false"></span>
+        <span data-i18n="themeToggle">深色</span>
+      </button>
+    </div>
+
+    <div class="hl">
+      <div class="title-row">
+        <img class="mark" src="assets/favicon.png" alt="" width="48" height="48" />
+        <h1>
+          <span class="brand">IPCON</span>
+          <span data-i18n="pageTitle">切片预设</span>
+        </h1>
+        <a
+          class="cta"
+          href="https://alchemicronin.github.io/ipcon-filament-guide-pages/"
+          target="_blank"
+          rel="noopener noreferrer"
+          data-i18n="guideLink"
+          data-i18n-title="guideLinkTitle"
+          title="打开推荐选配耗材指南"
+        >推荐选配</a>
+      </div>
+      <p class="sub" data-i18n="heroLead">为 IPCON 艾普创线材精调的切片配置，按切片软件与机型筛选，一键下载 JSON 或打包 ZIP。</p>
+      <p class="sub">
+        <span data-i18n="heroLead2">需要选材参考时，可打开</span>
+        <a class="inline-link" href="https://alchemicronin.github.io/ipcon-filament-guide-pages/" target="_blank" rel="noopener noreferrer" data-i18n="guideLinkFull">耗材选配指南</a>
+      </p>
+    </div>
+
+    <div class="hr">
+      <div class="cinfo">
+        <span class="chip" data-i18n="brandChip">艾普创耗材预设</span>
+        <div class="cl" data-i18n="brandHint">按切片器与机型筛选，直接下载可用配置</div>
+        <div class="cl url">
+          <a href="https://www.ipconpolymer.com/" target="_blank" rel="noopener noreferrer">www.ipconpolymer.com ↗</a>
+        </div>
+      </div>
+    </div>
   </header>
 
   <main id="top">
-    <section class="hero" aria-labelledby="hero-title">
-      <div class="hero__content">
-        <p class="hero__brand">
-          <span class="hero__brand-en">ipcon</span>
-          <span class="hero__brand-zh">艾普创</span>
-        </p>
-        <h1 id="hero-title" data-i18n="heroTitle">聚合物切片预设</h1>
-        <p class="hero__lead" data-i18n="heroLead">为 IPCON 艾普创线材精调的切片配置，按切片软件与机型筛选，一键下载 JSON 或打包 ZIP。</p>
-        <div class="hero__cta">
-          <a class="btn btn--primary" href="#catalog" data-i18n="ctaBrowse">浏览预设</a>
-          <a class="btn btn--ghost" href="#how" data-i18n="ctaHow">如何导入</a>
+    <section class="web-guide">
+      <div class="wg-eyebrow" data-i18n="guideEyebrow">IPCON 切片预设 · Web</div>
+      <div class="wg-row">
+        <h2 data-i18n="catalogTitle">先选切片器，再下预设</h2>
+        <div class="wg-steps">
+          <span><b>01</b> <span data-i18n="howStep1Short">选择切片软件</span></span>
+          <span><b>02</b> <span data-i18n="howStep2Short">按材料 / 机型筛选</span></span>
+          <span><b>03</b> <span data-i18n="howStep3Short">下载 JSON 或 ZIP</span></span>
         </div>
-      </div>
-      <div class="hero__visual" aria-hidden="true">
-        <img class="hero__logo-mark" src="assets/logo.png" alt="" width="320" height="117" />
-        <svg class="benzene-hero" viewBox="0 0 320 320" fill="none">
-          <g class="benzene-hero__ring" stroke-width="2">
-            <polygon points="160,28 252,81 252,187 160,240 68,187 68,81" stroke="url(#heroGrad)"/>
-            <polygon points="160,72 214,103 214,165 160,196 106,165 106,103" stroke="rgba(230,112,21,0.55)"/>
-            <circle cx="160" cy="28" r="6" fill="#00458E"/>
-            <circle cx="252" cy="81" r="6" fill="#E67015"/>
-            <circle cx="252" cy="187" r="6" fill="#00458E"/>
-            <circle cx="160" cy="240" r="6" fill="#E67015"/>
-            <circle cx="68" cy="187" r="6" fill="#00458E"/>
-            <circle cx="68" cy="81" r="6" fill="#E67015"/>
-          </g>
-          <defs>
-            <linearGradient id="heroGrad" x1="68" y1="28" x2="252" y2="240">
-              <stop stop-color="#00458E"/>
-              <stop offset="1" stop-color="#E67015"/>
-            </linearGradient>
-          </defs>
-        </svg>
       </div>
     </section>
 
-    <div class="hex-divider" aria-hidden="true">
-      <svg viewBox="0 0 720 24" preserveAspectRatio="none">
-        <path d="M0 12 H120 L132 2 L144 12 L156 22 L168 12 H720" stroke="currentColor" fill="none" stroke-width="1.2"/>
-      </svg>
-    </div>
-
     <section id="catalog" class="catalog">
-      <div class="section-head">
-        <h2 data-i18n="catalogTitle">选择切片软件</h2>
-        <p data-i18n="catalogSub">先选切片器，再按材料与打印机收窄结果。</p>
-      </div>
+      <div class="web-toolbar">
+        <div class="tb-main">
+          <div class="tb-title">
+            <span data-i18n="slicerPick">选择切片软件</span>
+          </div>
+          <div class="slicer-rail" id="slicerRail" role="tablist" aria-label="Slicers"></div>
+        </div>
 
-      <div class="slicer-rail" id="slicerRail" role="tablist" aria-label="Slicers"></div>
-
-      <div class="filters" id="filters">
-        <label class="filter">
-          <span data-i18n="filterMaterial">材料</span>
-          <select id="filterMaterial"></select>
-        </label>
-        <label class="filter">
-          <span data-i18n="filterBrand">打印机品牌</span>
-          <select id="filterBrand"></select>
-        </label>
-        <label class="filter">
-          <span data-i18n="filterModel">打印机型号</span>
-          <select id="filterModel"></select>
-        </label>
-        <button type="button" class="btn btn--ghost btn--small" id="resetFilters" data-i18n="resetFilters">重置筛选</button>
+        <div class="filters" id="filters">
+          <label class="filter">
+            <span data-i18n="filterMaterial">材料</span>
+            <select id="filterMaterial"></select>
+          </label>
+          <label class="filter">
+            <span data-i18n="filterBrand">打印机品牌</span>
+            <select id="filterBrand"></select>
+          </label>
+          <label class="filter">
+            <span data-i18n="filterModel">打印机型号</span>
+            <select id="filterModel"></select>
+          </label>
+          <button type="button" class="btn btn--ghost btn--small" id="resetFilters" data-i18n="resetFilters">重置筛选</button>
+        </div>
       </div>
 
       <div class="list-toolbar">
@@ -152,12 +127,18 @@
     </section>
   </main>
 
-  <footer class="site-footer">
-    <div class="footer-brand">
-      <img class="footer-logo" src="assets/logo-header.png" alt="ipcon 艾普创" width="120" height="44" />
-      <span data-i18n="footerTag">3D 打印耗材预设</span>
+  <footer class="foot">
+    <div>
+      <div class="footer-brand">
+        <img class="footer-logo" src="assets/logo-header.png" alt="ipcon 艾普创" width="120" height="44" />
+        <span data-i18n="footerTag">艾普创 · 3D 打印耗材预设</span>
+      </div>
+      <p class="fine" data-i18n="footerNote">静态站点 · 数据来自 index.json</p>
     </div>
-    <p class="footer-note" data-i18n="footerNote">静态站点 · 数据来自 IPCON</p>
+    <div class="foot-links">
+      <a href="https://alchemicronin.github.io/ipcon-filament-guide-pages/" target="_blank" rel="noopener noreferrer" data-i18n="guideLinkFull">耗材选配指南</a>
+      <a href="https://www.ipconpolymer.com/" target="_blank" rel="noopener noreferrer">ipconpolymer.com</a>
+    </div>
   </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/jszip@3.10.1/dist/jszip.min.js" defer></script>

@@ -6,16 +6,22 @@
 
   const I18N = {
     zh: {
+      pageTitle: "切片预设",
       brandTag: "耗材预设",
       guideLink: "推荐选配",
+      guideLinkFull: "耗材选配指南",
       guideLinkTitle: "打开推荐选配耗材指南",
-      heroTitle: "聚合物切片预设",
       heroLead:
         "为 IPCON 艾普创线材精调的切片配置，按切片软件与机型筛选，一键下载 JSON 或打包 ZIP。",
-      ctaBrowse: "浏览预设",
-      ctaHow: "如何导入",
-      catalogTitle: "选择切片软件",
-      catalogSub: "先选切片器，再按材料与打印机收窄结果。",
+      heroLead2: "需要选材参考时，可打开",
+      brandChip: "艾普创耗材预设",
+      brandHint: "按切片器与机型筛选，直接下载可用配置",
+      guideEyebrow: "IPCON 切片预设 · Web",
+      catalogTitle: "先选切片器，再下预设",
+      slicerPick: "选择切片软件",
+      howStep1Short: "选择切片软件",
+      howStep2Short: "按材料 / 机型筛选",
+      howStep3Short: "下载 JSON 或 ZIP",
       filterMaterial: "材料",
       filterBrand: "打印机品牌",
       filterModel: "打印机型号",
@@ -29,7 +35,7 @@
       howStep2: "下载单个 JSON，或勾选多项打包 ZIP。",
       howStep3: "在切片软件中打开「导入预设 / Import Config」，选择文件。",
       footerTag: "艾普创 · 3D 打印耗材预设",
-      footerNote: "静态站点 · 数据来自 IPCON",
+      footerNote: "静态站点 · 数据来自 index.json",
       resultCount: "共 {n} 个预设",
       download: "下载",
       material: "材料",
@@ -42,18 +48,26 @@
       zipName: "IPCON-presets.zip",
       langLabel: "中文",
       langIdle: "EN",
+      themeToggle: "深色",
+      themeToggleLight: "浅色",
     },
     en: {
+      pageTitle: "Filament Presets",
       brandTag: "Filament Presets",
       guideLink: "Match Guide",
+      guideLinkFull: "Filament Match Guide",
       guideLinkTitle: "Open recommended filament matching guide",
-      heroTitle: "Polymer-tuned slicer presets",
       heroLead:
-        "Slicer profiles tuned for IPCON (艾普创) filament. Filter by slicer and printer, then download JSON or a ZIP pack.",
-      ctaBrowse: "Browse presets",
-      ctaHow: "How to import",
-      catalogTitle: "Choose a slicer",
-      catalogSub: "Pick a slicer first, then narrow by material and printer.",
+        "Slicer profiles tuned for IPCON filament. Filter by slicer and printer, then download JSON or a ZIP pack.",
+      heroLead2: "Need material guidance? Open the",
+      brandChip: "IPCON filament presets",
+      brandHint: "Filter by slicer and printer, then download ready-to-use profiles",
+      guideEyebrow: "IPCON Filament Presets · Web",
+      catalogTitle: "Pick a slicer, then download",
+      slicerPick: "Choose a slicer",
+      howStep1Short: "Choose a slicer",
+      howStep2Short: "Filter by material / printer",
+      howStep3Short: "Download JSON or ZIP",
       filterMaterial: "Material",
       filterBrand: "Printer brand",
       filterModel: "Printer model",
@@ -81,11 +95,14 @@
       zipName: "IPCON-presets.zip",
       langLabel: "EN",
       langIdle: "中文",
+      themeToggle: "Dark",
+      themeToggleLight: "Light",
     },
   };
 
   const state = {
     lang: localStorage.getItem("ipcon-lang") || "zh",
+    theme: localStorage.getItem("ipcon-theme") || "light",
     catalog: null,
     slicer: "",
     material: "",
@@ -97,6 +114,8 @@
 
   const els = {
     langToggle: document.getElementById("langToggle"),
+    themeToggle: document.getElementById("themeToggle"),
+    themeGlyph: document.getElementById("themeGlyph"),
     slicerRail: document.getElementById("slicerRail"),
     filterMaterial: document.getElementById("filterMaterial"),
     filterBrand: document.getElementById("filterBrand"),
@@ -114,6 +133,20 @@
     return (I18N[state.lang] && I18N[state.lang][key]) || I18N.zh[key] || key;
   }
 
+  function applyTheme() {
+    document.documentElement.setAttribute("data-theme", state.theme);
+    const isDark = state.theme === "dark";
+    if (els.themeGlyph) els.themeGlyph.setAttribute("data-dark", String(isDark));
+    if (els.themeToggle) {
+      const label = els.themeToggle.querySelector("[data-i18n='themeToggle']");
+      if (label) label.textContent = isDark ? t("themeToggleLight") : t("themeToggle");
+      els.themeToggle.setAttribute(
+        "aria-label",
+        isDark ? t("themeToggleLight") : t("themeToggle")
+      );
+    }
+  }
+
   function applyI18n() {
     document.documentElement.lang = state.lang === "zh" ? "zh-CN" : "en";
     document.querySelectorAll("[data-i18n]").forEach((node) => {
@@ -125,11 +158,12 @@
       if (key) node.setAttribute("title", t(key));
     });
     const label = els.langToggle.querySelector("[data-lang-label]");
-    const idle = els.langToggle.querySelector(".lang-toggle__idle");
+    const idle = els.langToggle.querySelector(".lang-idle");
     if (label) label.textContent = t("langLabel");
     if (idle) idle.textContent = t("langIdle");
     document.title =
       state.lang === "zh" ? "IPCON 艾普创 · 切片预设" : "IPCON · Filament Presets";
+    applyTheme();
   }
 
   function fillSelect(select, values, selected) {
@@ -359,6 +393,14 @@
       renderList();
     });
 
+    if (els.themeToggle) {
+      els.themeToggle.addEventListener("click", () => {
+        state.theme = state.theme === "dark" ? "light" : "dark";
+        localStorage.setItem("ipcon-theme", state.theme);
+        applyTheme();
+      });
+    }
+
     els.filterMaterial.addEventListener("change", () => {
       state.material = els.filterMaterial.value;
       state.brand = "";
@@ -405,6 +447,7 @@
   }
 
   async function init() {
+    applyTheme();
     applyI18n();
     bindEvents();
 
