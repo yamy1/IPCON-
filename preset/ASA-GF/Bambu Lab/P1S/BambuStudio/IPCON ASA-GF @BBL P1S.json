@@ -20,7 +20,7 @@
         "0.98"
     ],
     "filament_settings_id": [
-        "IPCON ABS-GF @BBL X1C "
+        "IPCON ASA-GF @BBL P1S "
     ],
     "from": "User",
     "hot_plate_temp": [
@@ -29,8 +29,8 @@
     "hot_plate_temp_initial_layer": [
         "100"
     ],
-    "inherits": "Bambu ABS-GF @BBL X1C",
-    "name": "IPCON ABS-GF @BBL X1C",
+    "inherits": "Bambu ASA-GF @BBL P1S",
+    "name": "IPCON ASA-GF @BBL P1S",
     "nozzle_temperature": [
         "275",
         "275"
