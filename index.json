@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-10T08:55:31.236Z",
+  "generatedAt": "2026-11-12T01:02:35.687Z",
   "materials": [
     "ABS",
     "ASA-CF",
@@ -102,7 +102,7 @@
     },
     {
       "id": "asa-cf-bambu-lab-h2s-bambustudio-ipcon-asa-cf-bbl-h2s",
-      "name": "IPCON ABS-GF @BBL H2S",
+      "name": "IPCON ASA-GF @BBL H2S",
       "material": "ASA-CF",
       "brand": "Bambu Lab",
       "model": "H2S",
@@ -112,7 +112,7 @@
       "compatibleModels": [
         "Bambu Lab H2S"
       ],
-      "updated": "2026-11-10",
+      "updated": "2026-11-12",
       "version": "2.8.0.6"
     },
     {
@@ -132,7 +132,7 @@
     },
     {
       "id": "asa-cf-bambu-lab-p2s-bambustudio-ipcon-asa-cf-bbl-p2s",
-      "name": "IPCON ABS-GF @BBL P2S",
+      "name": "IPCON ASA-GF @BBL P2S",
       "material": "ASA-CF",
       "brand": "Bambu Lab",
       "model": "P2S",
@@ -142,7 +142,7 @@
       "compatibleModels": [
         "Bambu Lab P2S"
       ],
-      "updated": "2026-11-10",
+      "updated": "2026-11-12",
       "version": "2.8.0.6"
     },
     {
@@ -207,7 +207,7 @@
     },
     {
       "id": "asa-gf-bambu-lab-h2s-bambustudio-ipcon-asa-gf-bbl-h2s",
-      "name": "IPCON ABS-GF @BBL H2S",
+      "name": "IPCON ASA-GF @BBL H2S",
       "material": "ASA-GF",
       "brand": "Bambu Lab",
       "model": "H2S",
@@ -217,7 +217,7 @@
       "compatibleModels": [
         "Bambu Lab H2S"
       ],
-      "updated": "2026-11-08",
+      "updated": "2026-11-12",
       "version": "2.8.0.6"
     },
     {
@@ -237,7 +237,7 @@
     },
     {
       "id": "asa-gf-bambu-lab-p2s-bambustudio-ipcon-asa-gf-bbl-p2s",
-      "name": "IPCON ABS-GF @BBL P2S",
+      "name": "IPCON ASA-GF @BBL P2S",
       "material": "ASA-GF",
       "brand": "Bambu Lab",
       "model": "P2S",
@@ -247,7 +247,7 @@
       "compatibleModels": [
         "Bambu Lab P2S"
       ],
-      "updated": "2026-11-08",
+      "updated": "2026-11-12",
       "version": "2.8.0.6"
     },
     {

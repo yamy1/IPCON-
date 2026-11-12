@@ -2,7 +2,7 @@
 
 IPCON（ipcon 耗材）3D 打印线材切片预设下载站。纯静态页面（HTML / CSS / JS），数据来自 `index.json`，可部署到 **GitHub Pages**。
 
-站点地址（启用 Pages 后）：<https://yamy1.github.io/IPCON-/>
+站点地址（启用 Pages 后）：<https://yamy1.github.io/IPCON-Filament-library/>
 
 ## 功能
 
